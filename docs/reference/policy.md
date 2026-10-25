@@ -158,10 +158,11 @@ See also: [Mounting External Storage](../workspaces-and-storage/your-files-and-q
 
 ## Scheduled Maintenance
 
-### Instructional Maintenance
+### Weekly Maintenance {#instructional-maintenance}
 
-Maintenance on the instructional side runs Tuesdays, 6-8 AM. The work is usually
-limited to a subset of worker nodes, in which case running jobs are unaffected.
+Weekly maintenance runs Tuesdays, 6-8 AM, across the whole cluster, for courses
+and research alike. The work is usually limited to a subset of worker nodes, in
+which case running jobs are unaffected.
 Do not plan a deadline within this window. Infrequent 'Critical' updates may
 require downtime outside the window; ITS notifies instructors of such downtime
 as soon as is practical.

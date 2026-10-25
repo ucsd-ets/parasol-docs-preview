@@ -290,7 +290,7 @@ and faster to obtain. See
 
 ### Scheduled Maintenance
 
-Datahub may be unavailable during scheduled instructional maintenance for
+Datahub may be unavailable during scheduled weekly maintenance for
 time-sensitive updates or security patches. Quarterly maintenance
 terminates all running jobs, and long-running work must be checkpointed or
 completed before that window.

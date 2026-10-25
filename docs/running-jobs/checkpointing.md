@@ -21,7 +21,7 @@ what happened.
 | Eviction, when the reservation is cancelled or given to a teammate | None | [Eviction](../gpu-access/what-ends-a-session.md#eviction) |
 | Quarterly maintenance | Notice in advance, not on the pod; all running jobs are terminated | [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance) |
 
-None of these stops indicates a fault in the code. Instructional maintenance
+None of these stops indicates a fault in the code. Weekly maintenance
 generally leaves running jobs alone.
 
 > [!WARNING]

@@ -276,7 +276,7 @@ Scheduled maintenance is separate from all three. The schedules are published
 under [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance).
 [Maintenance Closures](../gpu-access/what-ends-a-session.md#maintenance-closures)
 describes the effect on sessions.
-Instructional maintenance generally leaves running jobs alone. Quarterly
+Weekly maintenance generally leaves running jobs alone. Quarterly
 maintenance terminates all running jobs. Do not start a 12-hour run that would
 overlap a quarterly maintenance window.
 

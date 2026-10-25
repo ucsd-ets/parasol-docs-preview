@@ -293,17 +293,17 @@ See also: [Reservation Events](../reference/reservation-events.md#events-when-a-
 
 ## Maintenance Closures
 
-Two maintenance regimes apply: instructional maintenance and quarterly
-maintenance. The schedule for both is published under
+Two maintenance regimes apply: weekly maintenance and quarterly maintenance. The schedule for both is published under
 [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance). Do not
 start a 12-hour run that would overlap an announced maintenance window.
 
-### Instructional Maintenance
+### Weekly Maintenance {#instructional-maintenance}
 
-Campus policy requires prompt patching of servers. The instructional
-maintenance window is reserved for that patching and is not a scheduled outage.
+Campus policy requires prompt patching of servers. The weekly maintenance window
+is reserved for that patching and is not a scheduled outage.
 
-Instructional maintenance usually affects a subset of worker nodes. Scheduling
+Weekly maintenance applies to the whole cluster, for courses and research
+alike, but usually affects a subset of worker nodes at a time. Scheduling
 policy tries to place jobs on nodes that will not be touched, so running work is
 generally unaffected. During the window, the platform may operate at reduced
 capacity, and, depending on the work being done, the whole cluster can be

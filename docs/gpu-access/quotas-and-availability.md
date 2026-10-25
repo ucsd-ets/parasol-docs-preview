@@ -269,7 +269,7 @@ in the reservation app at
 | Node numbers | The `-n` flag takes a bare number: `-n 30`, not `-n n30`. The leading `n` shown on the status page is not part of the value. A pod pinned to a full node waits for that node rather than taking the same GPU elsewhere. Pin a node only for a session launched without a booking; see [Node Selection](../running-jobs/launch-sh-reference.md#node-selection). |
 | Demand over the day | Peak evening demand is predictable and is visible on the status page. |
 
-During instructional maintenance, the status page may show less hardware than
+During weekly maintenance, the status page may show less hardware than
 usual. This does not indicate a fault. The maintenance schedule is published under
 [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance).
 
