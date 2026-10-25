@@ -1,6 +1,6 @@
 # Glossary
 
-Look up a term used in the Datahub and DSMLP documentation. Entries are in
+Look up a term used in the Datahub and PARASOL (formerly DSMLP) documentation. Entries are in
 alphabetical order, and each links to the page that covers the term in full.
 
 ## A-C
@@ -12,7 +12,7 @@ alphabetical order, and each links to the page that covers the term in full.
 | Auditor | A read-only privilege tier held by staff. | [Managing a Group](managing-a-group.md) |
 | Background pod (`-b`) | A pod created and left running while the shell returns to the login node. | [Background Pods](../running-jobs/job-modes-and-limits.md#background-pods) |
 | Batch job (`-B`) | A job run to completion unattended. | [Batch Jobs](../running-jobs/job-modes-and-limits.md#batch-jobs) |
-| Best-effort reservation | A session admitted with no runtime guarantee and no charge. Not enabled on DSMLP. | [Best-Effort Reservations](../gpu-access/reservations.md#best-effort-reservations) |
+| Best-effort reservation | A session admitted with no runtime guarantee and no charge. Not enabled on PARASOL. | [Best-Effort Reservations](../gpu-access/reservations.md#best-effort-reservations) |
 | Borrowing | The use of idle GPU capacity beyond a workspace's quota. | [Borrowing Beyond Quota](../gpu-access/quotas-and-availability.md#borrowing-beyond-quota) |
 | Budget window | The period a Service Unit budget covers before it renews. | [Budget Windows & Cadences](../gpu-access/service-units-and-budgets.md#budget-windows--cadences) |
 | Claim window | The period at the start of a booked window by which a matching session must be waiting or running, or the booking is cancelled as a no-show. | [The Claim Window](../gpu-access/reservations.md#the-claim-window) |
@@ -26,13 +26,12 @@ alphabetical order, and each links to the page that covers the term in full.
 
 | Term | Definition | Reference |
 |---|---|---|
-| Datahub | The browser interface at [`datahub.ucsd.edu`](https://datahub.ucsd.edu), comprising JupyterHub, the environment menu, and the services attached to it. | [Datahub in the Browser](../access/datahub-in-the-browser.md) |
+| Datahub | The browser interface to PARASOL at [`datahub.ucsd.edu`](https://datahub.ucsd.edu), comprising JupyterHub, the environment menu, and the services attached to it. | [Datahub in the Browser](../access/datahub-in-the-browser.md) |
 | `datahub-base-notebook` | A former base image, no longer built or updated. Derive from `datascience-notebook` instead. | [Legacy Image Names](../environments/standard-images.md#legacy-image-names) |
 | `datascience-notebook` | The standard CPU image, containing widely used data analysis libraries from the Python, R, and Julia communities, and the base of the other standard images. | [Image Inheritance](../environments/standard-images.md#image-inheritance) |
 | `/datasets` | The cluster-wide directory tree where shared corpora are staged, to be read in place rather than copied. | [Datasets](../workspaces-and-storage/datasets.md) |
 | `DeadlineExceeded` | The pod status reported when a container reaches the runtime limit, which does not indicate an error in the code. | [The `DeadlineExceeded` Status](../running-jobs/job-modes-and-limits.md#the-deadlineexceeded-status) |
 | disk-quota-service | The service under the **Services** tab at [`datahub.ucsd.edu/hub/spawn`](https://datahub.ucsd.edu/hub/spawn) that reports usage against quota and displays the workspace ID. | [Workspace and Personal Quotas](../workspaces-and-storage/your-files-and-quotas.md#workspace-and-personal-quotas) |
-| DSMLP | The Data Science / Machine Learning Platform, the on-premises cluster of CPU and GPU nodes on which Datahub sessions and command-line jobs run. | [Datahub and DSMLP Overview](../overview.md) |
 | `dsmlp-login.ucsd.edu` | The hostname of the login node. | [Connecting over SSH](../access/the-login-node.md#connecting-over-ssh) |
 | Duo | The campus two-factor prompt, which applies to both web and SSH access. | [Duo Authentication](../access/the-login-node.md#duo-authentication) |
 | Eviction | The deletion of a running session because its reservation was cancelled or given to another user, with no warning beforehand. | [Eviction](../gpu-access/what-ends-a-session.md#eviction) |
@@ -76,6 +75,7 @@ alphabetical order, and each links to the page that covers the term in full.
 | `OOMKilled` | The pod status reported when a container reaches its memory limit. | [Resource Requests and Limits](../running-jobs/launch-sh-reference.md#resource-requests-and-limits) |
 | Otter-Grader, Gradescope | Grading tools used on the platform alongside nbgrader. | [Choosing a Grading Tool & Interface](../grading/choosing-a-grading-tool.md) |
 | Overstay | Running a session past the end of its runtime guarantee, unprotected but not charged. | [Overstay](../gpu-access/what-ends-a-session.md#overstay) |
+| PARASOL | The Platform for Applied Research, Analytics, Science and Open Learning, the on-premises cluster of CPU and GPU nodes on which Datahub sessions and command-line jobs run, for courses, student projects and research alike, formerly called DSMLP. | [How PARASOL Works](../overview.md) |
 | Pinning | Fixing a workspace to a dated image tag so that its members are not moved by an image update mid-term. | [Pinning a Workspace](../environments/standard-images.md#pinning-a-workspace) |
 | Pod | One running container as Kubernetes represents it; `kubectl get pods` lists the pods in an account's own namespace. | [Direct Kubernetes Use and Session Events](../running-jobs/kubernetes.md) |
 | Pod label (`-l key=value`) | A repeatable attribute attached to a pod at launch, and the means by which `gpu-class` is set. | [Resource and GPU Selection Flags](../running-jobs/launch-sh-reference.md#resource-and-gpu-selection-flags) |
@@ -90,7 +90,6 @@ alphabetical order, and each links to the page that covers the term in full.
 |---|---|---|
 | Quota, GPU | The ceiling on how many GPUs of each class a workspace may hold at one time, separate from a Service Unit budget. | [What a Quota Is](../gpu-access/quotas-and-availability.md#what-a-quota-is) |
 | Quota, storage | Two separate pools: the workspace pool, covering the workspace home, `public/`, and `teams/`, and the personal pool, covering `private/` and following the member into every workspace. | [Workspace and Personal Quotas](../workspaces-and-storage/your-files-and-quotas.md#workspace-and-personal-quotas) |
-| Research Cluster | The research-facing service supported by Research IT at `rcd-support@ucsd.edu`, whose scheduled maintenance terminates all running jobs. | [Scheduled Maintenance](policy.md#scheduled-maintenance) |
 | Reservation | A booked window during which GPU capacity is held and a session is admitted ahead of the walk-up queue; the session is still launched as usual. | [Reservations](../gpu-access/reservations.md) |
 | Reservation app | The web app at [`reserve.dsmlp.ucsd.edu`](https://reserve.dsmlp.ucsd.edu/) where GPU windows are booked, cancelled, and extended. | [The Reservation App](../gpu-access/reservations.md#the-reservation-app) |
 | Reservation event | A Kubernetes event the reservation system writes on a GPU pod, such as `OnDemandLeaseDenied` or `Preempted`. | [Reservation Events](reservation-events.md) |
@@ -119,3 +118,17 @@ alphabetical order, and each links to the page that covers the term in full.
 | Unprivileged container | A container running under the member's own UID, without root or `sudo`, in a per-user Kubernetes namespace. | [Root Access and System Packages](../environments/customizing-your-environment.md#root-access-and-system-packages) |
 | Workspace | The unit for one course, lab, or catch-all population, which anchors its roster, storage, container images, GPU class access, quotas, and budgets. | [What a Workspace Is and What It Controls](../workspaces-and-storage/what-a-workspace-is.md) |
 | Workspace manager | The privilege tier held by an instructor, a TA, or a PI. | [Managing a Group](managing-a-group.md) |
+
+## Former Names
+
+<!-- transform: off -->
+
+**DSMLP**, the Data Science & Machine Learning Platform, is the former name of
+PARASOL. It is still part of hostnames and system output, such as
+`dsmlp-login.ucsd.edu`.
+
+**Research Cluster** was the name for research work on what is now PARASOL.
+Support for research work is from Research IT at
+[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
+
+<!-- transform: on -->

@@ -1,7 +1,7 @@
 # Coming from HPC
 
 If you have worked on a high-performance computing (HPC) cluster that runs
-Slurm, find the DSMLP equivalent of what you know, where DSMLP behaves
+Slurm, find the PARASOL (formerly DSMLP) equivalent of what you know, where PARASOL behaves
 differently, and whether your existing submission scripts run unchanged.
 
 ## HPC Terms and Their Equivalents
@@ -29,7 +29,7 @@ differently, and whether your existing submission scripts run unchanged.
 
 ## Differences from Slurm Behavior
 
-Three Slurm conventions behave differently on DSMLP.
+Three Slurm conventions behave differently on PARASOL.
 
 ### The `--partition` Option
 
@@ -161,7 +161,7 @@ See also: [Platform Selection](getting-help.md#platform-selection)
 
 ## Features Uncommon on HPC Clusters
 
-DSMLP provides a browser-based notebook environment that shares one filesystem
+PARASOL provides a browser-based notebook environment that shares one filesystem
 with the login node, per-user containers that members build themselves, and
 Kubernetes underneath for direct use. Most HPC clusters do not provide these.
 [Direct Kubernetes Use and Session Events](../running-jobs/kubernetes.md)

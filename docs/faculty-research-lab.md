@@ -1,8 +1,8 @@
 # Setting Up a Research Lab
 
-This page is for faculty arranging Datahub and DSMLP access for a research
-group. [Research on DSMLP](individual-researcher.md) covers researchers working
-on their own. [Teaching with Datahub and DSMLP](instructor-or-ta.md) covers
+This page is for faculty arranging Datahub and PARASOL (formerly DSMLP) access for a research
+group. [Research on PARASOL](individual-researcher.md) covers researchers working
+on their own. [Teaching with Datahub and PARASOL](instructor-or-ta.md) covers
 course setup.
 
 ## Platform Suitability
@@ -114,7 +114,7 @@ group permissions and public access.
 ### Data Classification
 
 Data classified P4, such as clinical records or export-controlled information,
-may not be used on DSMLP. Data classified P3 may be permitted after review.
+may not be used on PARASOL. Data classified P3 may be permitted after review.
 [Data Classification](reference/policy.md#data-classification) describes the
 review and gives the vetting period. Raise either classification in the initial
 workspace request rather than later.
@@ -263,7 +263,7 @@ inside the container, which constrains how dependencies are installed. See
 
 ### Onboarding
 
-Direct new members to [Research on DSMLP](individual-researcher.md), which
+Direct new members to [Research on PARASOL](individual-researcher.md), which
 assumes a shell and covers launching, storage, and the GPU model. Brief new
 members on three points: the group's storage conventions, the GPU class its work
 requires, and the reclaiming of an idle GPU session. See
@@ -291,7 +291,7 @@ and faster to obtain. See
 ### Scheduled Maintenance
 
 Datahub may be unavailable during scheduled instructional maintenance for
-time-sensitive updates or security patches. Research Cluster maintenance
+time-sensitive updates or security patches. Quarterly maintenance
 terminates all running jobs, and long-running work must be checkpointed or
 completed before that window.
 [Scheduled Maintenance](reference/policy.md#scheduled-maintenance) gives both
@@ -316,8 +316,8 @@ availability and reliability.
 
 | Service | Contact |
 |---|---|
-| Research IT and the Research Cluster | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu), [research-it.ucsd.edu](https://research-it.ucsd.edu/computing/index.html) |
-| Datahub and DSMLP | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| Research IT, and support for research work | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu), [research-it.ucsd.edu](https://research-it.ucsd.edu/computing/index.html) |
+| Datahub and PARASOL | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
 | IT Service Desk | [support.ucsd.edu](https://support.ucsd.edu/) |
 
 [Response Targets](reference/getting-help.md#response-targets) gives ITS

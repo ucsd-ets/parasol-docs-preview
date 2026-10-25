@@ -1,6 +1,6 @@
 # Getting Help
 
-Find out whom to contact about Datahub or DSMLP, what to include in a ticket,
+Find out whom to contact about Datahub or PARASOL (formerly DSMLP), what to include in a ticket,
 and how to ask for a change you cannot make yourself, such as more disk space
 or a larger GPU class. If you are a student in a course, start with your
 instructor or TA.
@@ -25,8 +25,8 @@ Researchers and lab members have no instructor tier and use the contacts in
 | Question | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| Datahub or DSMLP itself: access, images, launching, quotas, GPUs | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
-| The Research Cluster, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
+| Datahub or PARASOL itself: access, images, launching, quotas, GPUs | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| Research work, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | An outage, or anything to be tracked as a ticket | The [ITS Service Desk](https://support.ucsd.edu/) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 | An in-depth conversation, for an instructor, TA, or Technical Point of Contact (TPOC) | [1:1 Consultation](https://ucsd-datahub.youcanbook.me/) |
@@ -41,8 +41,8 @@ screenshots and long pastes.
 ### Platform Selection
 
 Research IT is the first contact for the question of whether a research project
-belongs on DSMLP. Research IT can compare a project against the other platforms
-the campus runs, including capabilities DSMLP does not have, such as a full
+belongs on PARASOL. Research IT can compare a project against the other platforms
+the campus runs, including capabilities PARASOL does not have, such as a full
 batch scheduler, MPI, and multi-node work, and against the platforms a PI's
 group already uses.
 

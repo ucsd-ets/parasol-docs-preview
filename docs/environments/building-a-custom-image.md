@@ -34,7 +34,7 @@ TensorFlow. A custom CUDA toolkit must be kept compatible with the driver on the
 node indefinitely. The `scipy-ml-notebook` Dockerfile records the toolkit
 version that image carries, and
 [CUDA Versions](../gpu-access/gpu-hardware.md#cuda-versions) gives the versions
-DSMLP supports.
+PARASOL (formerly DSMLP) supports.
 
 ### Experimental Images
 
@@ -179,7 +179,7 @@ FROM ghcr.io/ucsd-ets/datascience-notebook:2024.4-stable
 1. Create a `dev` or `test` branch and commit to it. The build publishes the
    branch's tag, such as `{image}:test`.
 2. Test the branch image. See
-   [Testing a Custom Image on DSMLP](#testing-a-custom-image-on-dsmlp).
+   [Testing a Custom Image on PARASOL](#testing-a-custom-image-on-dsmlp).
 3. When the image works, open a pull request into the branch the course uses.
 4. Have a team member review the pull request.
 5. Merge the pull request. The merge rebuilds the production tag.
@@ -198,7 +198,7 @@ support this work through 1:1 Consultation rather than by building the image.
 See
 [Support & Technical Consultation](../instructor-or-ta.md#support--technical-consultation).
 
-## Testing a Custom Image on DSMLP
+## Testing a Custom Image on PARASOL {#testing-a-custom-image-on-dsmlp}
 
 From the login node, launch the custom image into the course workspace:
 

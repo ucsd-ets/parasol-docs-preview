@@ -36,6 +36,7 @@
   The sr-only labels are new. The template ships this form with no label at
   all; protected-regions.md calls that out as wanting a fix on both shapes.
 #}
+{%- import "partials/nav-macros.html" as navm %}
 <header class="layout-header">
 		<a class="sr-only" href="#main-content">Skip to main content</a>
 		<div id="uc-emergency"></div>
@@ -58,7 +59,7 @@
 		<ul class="nav navbar-nav navbar-right">
 			<li>
 				<div class="search">
-					<button class="search-toggle btn-default">
+					<button class="search-toggle btn-default" aria-label="Search">
 						<span class="glyphicon glyphicon-search"></span> <span class="caret"></span>
 					</button>
 
@@ -87,10 +88,10 @@
 {%- for item in nav %}
 {%- if item.children %}
 			<li class="dropdown{{ ' active' if item.active }}">
-				<a href="/{{ item.children[0].url }}" class="dropdown-toggle">{{ item.title }} <b class="caret"></b></a>
+				<a href="/{{ navm.first_url(item) }}" class="dropdown-toggle">{{ item.title }} <b class="caret"></b></a>
 				<ul class="dropdown-menu navmenu-nav">
 {%- for child in item.children %}
-					<li><a href="/{{ child.url }}">{{ child.title }}</a></li>
+					<li><a href="/{{ navm.first_url(child) }}">{{ child.title }}</a></li>
 {%- endfor %}
 				</ul>
 			</li>
@@ -130,11 +131,11 @@
 {%- for item in nav %}
 {%- if item.children %}
 					<li class="dropdown{{ ' active' if item.active }}">
-						<a href="/{{ item.children[0].url }}" class="dropdown-toggle" data-hover="dropdown" role="button"
+						<a href="/{{ navm.first_url(item) }}" class="dropdown-toggle" data-hover="dropdown" role="button"
 							aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 {%- for child in item.children %}
-							<li><a href="/{{ child.url }}">{{ child.title }}</a></li>
+							<li><a href="/{{ navm.first_url(child) }}">{{ child.title }}</a></li>
 {%- endfor %}
 						</ul>
 					</li>
@@ -149,7 +150,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li>
 						<div class="search">
-							<button class="search-toggle btn-default">
+							<button class="search-toggle btn-default" aria-label="Search">
 								<span class="glyphicon glyphicon-search"></span> <span class="caret"></span>
 							</button>
 

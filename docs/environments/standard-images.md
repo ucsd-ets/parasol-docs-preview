@@ -1,7 +1,7 @@
 # Standard Images, Tags, and Pinning
 
 The standard images are the software environments IT Services maintains for
-Datahub and DSMLP, and most courses and projects run on one of them. Find out
+Datahub and PARASOL (formerly DSMLP), and most courses and projects run on one of them. Find out
 which image a session runs, what it contains, and how a course can pin its
 workspace to one version of an image for a term.
 
@@ -64,7 +64,7 @@ with the driver on the node.
 [Building & Publishing a Custom Image](building-a-custom-image.md) covers custom
 image builds.
 [CUDA Versions](../gpu-access/gpu-hardware.md#cuda-versions) gives the CUDA
-versions DSMLP supports.
+versions PARASOL supports.
 
 ## Image Names and Tags
 

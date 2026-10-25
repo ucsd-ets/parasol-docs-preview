@@ -202,7 +202,7 @@ The runtime limit also applies to a session running under a booking, however
 long the booking. See
 [Reservation Length and Session Runtime](../gpu-access/reservations.md#reservation-length-and-session-runtime).
 
-On the Research Cluster, the same figures apply, and extension requests go to
+For research work, the same figures apply, and extension requests go to
 [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) instead.
 
 The runtime limit is the same in every mode and does not depend on anyone being
@@ -257,15 +257,15 @@ Scheduled maintenance is separate from all three. The schedules are published
 under [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance).
 [Maintenance Closures](../gpu-access/what-ends-a-session.md#maintenance-closures)
 describes the effect on sessions.
-Instructional maintenance generally leaves running jobs alone. Research Cluster
+Instructional maintenance generally leaves running jobs alone. Quarterly
 maintenance terminates all running jobs. Do not start a 12-hour run that would
-overlap a Research Cluster maintenance window.
+overlap a quarterly maintenance window.
 
 ### Runs Longer Than 12 Hours
 
 Runs longer than 12 hours are arranged by request, not by a flag. Email
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu), or
-[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) on the Research Cluster,
+[datahub@ucsd.edu](mailto:datahub@ucsd.edu) for course work, or
+[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) for research work,
 stating what the job is and roughly how long it needs.
 
 A job that checkpoints can be restarted.

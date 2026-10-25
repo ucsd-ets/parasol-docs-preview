@@ -13,15 +13,15 @@ what happened.
 | Idle culling, once the GPU stops being used | Yes; a warning comes first, and the status is recorded on the pod | [What Counts as Idle](../gpu-access/what-ends-a-session.md#what-counts-as-idle) |
 | Preemption, once the session is past its runtime guarantee and its GPU is needed | Usually; about 15 minutes of notice, readable by the job itself | [Preemption](../gpu-access/what-ends-a-session.md#preemption) |
 | Eviction, when the reservation is cancelled or given to a teammate | None | [Eviction](../gpu-access/what-ends-a-session.md#eviction) |
-| Research Cluster maintenance | Notice in advance, not on the pod; all running jobs are terminated | [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance) |
+| Quarterly maintenance | Notice in advance, not on the pod; all running jobs are terminated | [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance) |
 
 None of these stops indicates a fault in the code. Instructional maintenance
 generally leaves running jobs alone.
 
 > [!WARNING]
-> The runtime limit, an eviction, and Research Cluster maintenance are not
+> The runtime limit, an eviction, and quarterly maintenance are not
 > announced on the pod. The runtime limit stops the container at its deadline
-> with no prior warning and no signal to catch. Research Cluster maintenance
+> with no prior warning and no signal to catch. Quarterly maintenance
 > terminates every running job. Work that is not on disk before any of them
 > arrives is lost.
 
@@ -275,7 +275,7 @@ protects the session only once it opens, which can be after the stop. See
 
 ## Reading the Warning From Inside a Container
 
-Every pod on DSMLP carries its annotations in the file
+Every pod on PARASOL (formerly DSMLP) carries its annotations in the file
 `/etc/podinfo/annotations`. The cluster's admission controller adds the
 downward-API volume that holds the file to each pod it admits, whether the pod
 was started by `launch.sh`, by Datahub, from a hand-written manifest, or by a

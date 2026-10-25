@@ -49,7 +49,7 @@ Ada Lovelace cards have fourth-generation tensor cores, which add FP8.
 ### Hopper
 
 Hopper cards have fourth-generation tensor cores and the Transformer Engine,
-which runs FP8. The H100s on DSMLP are the PCIe variant, with HBM2e memory at
+which runs FP8. The H100s on PARASOL (formerly DSMLP) are the PCIe variant, with HBM2e memory at
 2,000 GB/s. The SXM variant has HBM3 at 3,350 GB/s, so a PCIe H100 has about 60
 percent of an SXM H100's bandwidth.
 
@@ -89,7 +89,7 @@ profile.
 
 ## CUDA Versions
 
-As of Fall 2026, DSMLP supports CUDA 12 and CUDA 13. The standard GPU image,
+As of Fall 2026, PARASOL supports CUDA 12 and CUDA 13. The standard GPU image,
 `scipy-ml-notebook`, includes CUDA 12. The image's Dockerfile records its exact
 toolkit version; see
 [Finding the Package List](../environments/standard-images.md#finding-the-package-list).
@@ -98,7 +98,7 @@ For a custom image that carries its own toolkit, see
 
 ## CUDA Profiling
 
-Three profilers work on DSMLP. GPU performance counters are open to users
+Three profilers work on PARASOL. GPU performance counters are open to users
 inside the container, so each can collect hardware metrics.
 
 | Profiler | Shows | Output |
@@ -108,7 +108,7 @@ inside the container, so each can collect hardware metrics.
 | PyTorch profiler, `torch.profiler` | Time and memory by PyTorch operator | A printed table or a trace file |
 
 The standard images do not include Nsight Systems or Nsight Compute. NVIDIA's
-container images at `nvcr.io` are fully supported on DSMLP and include both.
+container images at `nvcr.io` are fully supported on PARASOL and include both.
 The PyTorch profiler is part of PyTorch, which `scipy-ml-notebook` includes.
 
 ### Nsight Systems and Nsight Compute

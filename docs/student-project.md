@@ -1,6 +1,6 @@
 # Projects & Independent Study
 
-This page is for work on Datahub and DSMLP outside a scheduled course. It
+This page is for work on Datahub and PARASOL (formerly DSMLP) outside a scheduled course. It
 assumes familiarity with a shell. Access through an enrolled course is separate
 and follows different rules. See
 [Using Datahub in a Course](student-in-a-course.md) and
@@ -25,7 +25,7 @@ eligible, subject to the cost recovery set out there.
 For non-students, and for research that is not for credit,
 [Research IT](https://research-it.ucsd.edu/computing/index.html) can help
 connect faculty, staff, and student researchers with compute platforms.
-[Research on DSMLP](individual-researcher.md) covers individual research on the
+[Research on PARASOL](individual-researcher.md) covers individual research on the
 cluster.
 
 ### Submitting a Request
@@ -177,14 +177,14 @@ multi-day reservations, or needs storage measured in terabytes.
 
 | Situation | Route |
 |---|---|
-| Independent work on an ongoing basis | [Research on DSMLP](individual-researcher.md) |
+| Independent work on an ongoing basis | [Research on PARASOL](individual-researcher.md) |
 | Provisioning for a group | Provisioning belongs with a PI. Refer the PI to [Setting Up a Research Lab](faculty-research-lab.md). |
 | Work beyond this cluster | [Research IT](https://research-it.ucsd.edu/computing/index.html) can discuss other platforms. |
 
 ## Policy
 
 Highly sensitive data (P4), such as clinical records or export-controlled
-information, must not be used on DSMLP, and legally or contractually protected
+information, must not be used on PARASOL, and legally or contractually protected
 information (P3) may be permitted after review. See
 [Data Classification](reference/policy.md#data-classification).
 [Policy](reference/policy.md) sets out appropriate use, the sharing of compute

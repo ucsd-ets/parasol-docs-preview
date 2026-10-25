@@ -1,3 +1,3 @@
 # Search
 
-Search the Datahub and DSMLP documentation.
+Search the Datahub and PARASOL (formerly DSMLP) documentation.

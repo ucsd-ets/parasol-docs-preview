@@ -89,7 +89,7 @@ on-demand lease.
 
 Type `Warning`. The pod was waiting for its booking, but when the booking opened
 the owner's other pods held its GPUs. The message names those pods when they
-are in the same namespace. The pod is admitted if a GPU frees up. On DSMLP, the
+are in the same namespace. The pod is admitted if a GPU frees up. On PARASOL (formerly DSMLP), the
 reservation system re-checks a waiting pod within about 10 minutes, and a pod
 that still does not fit its booking is then given an on-demand lease, charged
 separately. Stop one of the named pods with `kubectl delete pod <pod-name>` to
@@ -104,7 +104,7 @@ only where ITS has raised the account's GPU limit. See
 
 Type `Warning`. The pod requests more GPUs than its booking holds, so the
 booking can never admit it. Two bookings are never combined for one pod. On
-DSMLP this event is not expected: a pod that asks for more GPUs than its booking
+PARASOL this event is not expected: a pod that asks for more GPUs than its booking
 holds is given an on-demand lease, charged separately, instead of waiting. See
 [Claiming a Booking](../gpu-access/reservations.md#claiming-a-booking).
 
@@ -207,7 +207,7 @@ on-demand lease. The message lists why, and names any booking the user holds for
 another class or another workspace. Correct the pod and recreate it, or book a
 window for the class. See
 [Claiming a Booking](../gpu-access/reservations.md#claiming-a-booking). On
-DSMLP, where every pod with a class label qualifies for an on-demand lease, this
+PARASOL, where every pod with a class label qualifies for an on-demand lease, this
 event is not expected.
 
 ### `NoGpuRequest`
@@ -227,8 +227,8 @@ This pod has the gpu-class label medium but requests no GPUs: no container sets 
 ### `AnnotationIgnored`
 
 Type `Warning`. An annotation on the pod was invalid or asked for something
-DSMLP does not offer, and ignoring it changed what happens. The common case is a
-request for best-effort admission, which is not enabled on DSMLP: the pod is
+PARASOL does not offer, and ignoring it changed what happens. The common case is a
+request for best-effort admission, which is not enabled on PARASOL: the pod is
 admitted on an ordinary on-demand lease and charged for it. See
 [Best-Effort Reservations](../gpu-access/reservations.md#best-effort-reservations).
 
@@ -326,7 +326,7 @@ Pod re-linked to GPU reservation #4213; no longer overstay. GPU access guarantee
 ### `BestEffortAdmitted`
 
 Type `Normal`. The pod was admitted with no runtime guarantee and no charge.
-Best-effort admission is not enabled on DSMLP.
+Best-effort admission is not enabled on PARASOL.
 
 ## Events When a Pod Is Stopped
 

@@ -1,6 +1,6 @@
 # Reservations
 
-From Fall 2026, every GPU session on DSMLP runs under a reservation: either a
+From Fall 2026, every GPU session on PARASOL (formerly DSMLP) runs under a reservation: either a
 booking made ahead in the reservation app, or an on-demand lease that the
 reservation system creates when a session launches without one.
 
@@ -38,7 +38,7 @@ covers sign-in problems, including an expired session.
 |---|---|---|---|
 | Booking | The member, in the reservation app, ahead of time | SU for the window, charged when it is booked | A runtime guarantee to the end of the window |
 | On-demand lease | The reservation system, when a GPU session launches with no booking | SU for the lease, as for a booking | A runtime guarantee to the end of the lease |
-| Best-effort | Not enabled on DSMLP | None | None |
+| Best-effort | Not enabled on PARASOL | None | None |
 
 A reservation guarantees access, not a running job. Nothing starts when a
 booked window opens. A notebook, a shell session, or a batch job is launched in
@@ -385,7 +385,7 @@ other. See [Managing a Group](../reference/managing-a-group.md).
 ## Best-Effort Reservations
 
 Best-effort admission, which runs a session with no runtime guarantee and no
-charge, is not enabled on DSMLP. A pod that asks for it is admitted on an
+charge, is not enabled on PARASOL. A pod that asks for it is admitted on an
 ordinary on-demand lease and charged for it, and records an `AnnotationIgnored`
 event. Best-effort reservations do not appear in the reservation app.
 

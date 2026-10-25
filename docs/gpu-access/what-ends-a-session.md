@@ -10,7 +10,7 @@ crash, and none of them loses saved work.
 | Runtime limit | The pod reached 6 hours, or 12 hours where that was set at launch | [The Runtime Limit](../running-jobs/job-modes-and-limits.md#the-runtime-limit) |
 | Preemption | The session was past its runtime guarantee, and its GPU was needed | [Preemption](#preemption) |
 | Eviction | The reservation the session ran under was cancelled, or given to a teammate | [Eviction](#eviction) |
-| Maintenance | A node was drained, or the Research Cluster maintenance window opened | [Maintenance Closures](#maintenance-closures) |
+| Maintenance | A node was drained, or the quarterly maintenance window opened | [Maintenance Closures](#maintenance-closures) |
 
 The end of a reservation window does not by itself stop a session; see
 [End of a Reservation Window](#end-of-a-reservation-window).
@@ -188,7 +188,7 @@ notifications. Setup instructions for this display in VS Code and other remote
 editors are not yet published. For connecting VS Code itself, see
 [Remote Editor Setup](../access/remote-editor-setup.md).
 
-![The VS Code status bar reading Job protected 55:49, below a notification that says GPU resources reserved (medium) until 10:49 AM, from DSMLP Job Reservation/Resource Status, with a Details button.](../images/vscode-reservation-status.png)
+![The VS Code status bar reading Job protected 55:49, below a notification that says GPU resources reserved (medium) until 10:49 AM, from PARASOL Job Reservation/Resource Status, with a Details button.](../images/vscode-reservation-status.png)
 
 From the command line, `kubectl describe pod` shows the end of the guarantee in
 the pod's annotations; see
@@ -246,7 +246,7 @@ inside its guarantee is never preempted.
 | Trigger | When |
 |---|---|
 | A booking starts, and its GPU class has too few free GPUs | Up to 15 minutes before the booking starts, and again at its start. The stop stands even if the booking is then never claimed |
-| Headroom | DSMLP keeps 15% of each GPU class free for on-demand jobs. When less is free, sessions past their guarantee are warned, and can be stopped once at least 15 minutes have passed |
+| Headroom | PARASOL (formerly DSMLP) keeps 15% of each GPU class free for on-demand jobs. When less is free, sessions past their guarantee are warned, and can be stopped once at least 15 minutes have passed |
 
 An on-demand lease never triggers preemption. A lease that finds no free GPU
 waits.
@@ -293,7 +293,7 @@ See also: [Reservation Events](../reference/reservation-events.md#events-when-a-
 
 ## Maintenance Closures
 
-Two maintenance regimes apply: instructional maintenance and Research Cluster
+Two maintenance regimes apply: instructional maintenance and quarterly
 maintenance. The schedule for both is published under
 [Scheduled Maintenance](../reference/policy.md#scheduled-maintenance). Do not
 start a 12-hour run that would overlap an announced maintenance window.
@@ -315,19 +315,19 @@ vulnerability requires immediate action. Critical updates occasionally require
 work outside the window. ITS notifies instructors and TAs of such work as far in
 advance as possible.
 
-### Research Cluster Maintenance
+### Quarterly Maintenance {#research-cluster-maintenance}
 
-Research Cluster maintenance terminates all running jobs. Jobs are not drained,
-migrated, or deferred to another node. A multi-day training run started the day
-before is lost when the window opens, together with everything not written to
-disk.
+Quarterly maintenance terminates all running jobs, for courses and research
+alike. Jobs are not drained, migrated, or deferred to another node. A multi-day
+training run started the day before is lost when the window opens, together
+with everything not written to disk.
 
 Windows are placed to avoid the start and end of a quarter, midterm periods, and
 known conference deadlines, and each notice is followed by a reminder shortly
 before the day. This placement reflects past practice, not a published
 commitment. The notice sent for each window governs.
 
-Research Cluster maintenance notices are sent from
+Quarterly maintenance notices are sent from
 [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu), which also answers
 questions about them.
 

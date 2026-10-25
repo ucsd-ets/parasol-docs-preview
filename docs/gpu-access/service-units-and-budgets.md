@@ -1,6 +1,6 @@
 # Service Units & Budgets
 
-From Fall 2026, GPU time on DSMLP is metered in Service Units (SU), and each
+From Fall 2026, GPU time on PARASOL (formerly DSMLP) is metered in Service Units (SU), and each
 workspace member has a budget of them.
 
 ## What a Service Unit Is
@@ -10,7 +10,7 @@ an hourly SU rate, and every reservation is priced from that rate. The scheme
 follows the HPC allocation model: a budget of credits, drawn down as GPU time
 is used and renewed on a cycle.
 [Coming from HPC](../reference/coming-from-hpc.md) lists HPC terms and their
-DSMLP equivalents.
+PARASOL equivalents.
 
 Service Units divide capacity and are not billed. Storage is not measured in
 Service Units.

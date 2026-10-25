@@ -100,7 +100,7 @@ be done with data the campus has already acquired.
 
 P3 and P4 are protection levels in the University's data classification. P4
 data, such as clinical records or export-controlled material, is prohibited on
-Datahub and DSMLP without review or exception, and P3 data may be permitted
+Datahub and PARASOL (formerly DSMLP) without review or exception, and P3 data may be permitted
 after review. See
 [Data Classification](../reference/policy.md#data-classification).
 
@@ -154,7 +154,7 @@ request, so that the data is scoped correctly from the start. See
 
 ### Publishing Restricted Data Externally
 
-Datahub and DSMLP are not for publishing restricted data outward. The platform
+Datahub and PARASOL are not for publishing restricted data outward. The platform
 is not for externally available services or applications except as required for
 coursework or projects, and the limit applies in particular to data held under
 license terms.

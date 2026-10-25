@@ -1,4 +1,4 @@
-# Research on DSMLP
+# Research on PARASOL {#research-on-dsmlp}
 
 This page is for researchers working without a lab workspace: graduate
 students, postdocs, undergraduate researchers, staff researchers, and faculty
@@ -10,8 +10,9 @@ coursework and capstones.
 
 ## What the Platform Is Suited To
 
-DSMLP, Datahub, and the Research Cluster are the same cluster. The work does not
-change with the name an article uses.
+Datahub sessions and research work run on the same cluster, PARASOL (formerly DSMLP). Older pages
+and articles may call it the Research Cluster, and the work does not change with
+the name an article uses.
 
 ### Suitable Work
 
@@ -22,19 +23,19 @@ operated since 2017 and carries both instruction and research.
 
 ### Unsupported HPC Features
 
-DSMLP is not a high-performance computing (HPC) system. It has no Slurm
+PARASOL is not a high-performance computing (HPC) system. It has no Slurm
 scheduler and no MPI or multi-node support. The `sbatch`-style wrappers are a
 compatibility layer rather than a scheduler. See
 [Slurm Compatibility Wrappers](reference/coming-from-hpc.md#slurm-compatibility-wrappers).
 [Coming from HPC](reference/coming-from-hpc.md) covers HPC vocabulary and Slurm
 compatibility. Routing for work that requires
-these features is in [Beyond DSMLP](#beyond-dsmlp).
+these features is in [Beyond PARASOL](#beyond-dsmlp).
 
 ## Obtaining Access
 
 Request access through
-[Research IT](https://research-it.ucsd.edu/computing/index.html), or through
-[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) for the Research Cluster.
+[Research IT](https://research-it.ucsd.edu/computing/index.html) or
+[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 Describe the work, its approximate resource requirements, and the timeframe.
 
 ## The Working Environment
@@ -250,7 +251,7 @@ Some data available on the cluster carries usage terms. See
 ### Data Classification
 
 P4 data, such as clinical records and export-controlled information, must not be
-used on DSMLP. P3 data, which is legally or contractually protected information,
+used on PARASOL. P3 data, which is legally or contractually protected information,
 may be permitted after review.
 [Data Classification](reference/policy.md#data-classification) describes the
 classification levels and the review.
@@ -278,8 +279,8 @@ Support for research users is routed by subject.
 
 | Subject of the question | Contact |
 |---|---|
-| The Research Cluster, Universal Scale Storage, research allocations | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
-| Datahub or DSMLP itself: the platform, images, launching | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| Research work, Universal Scale Storage, research allocations | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
+| Datahub or PARASOL itself: the platform, images, launching | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
 | Which platform is appropriate for a given body of work | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 
 Urgent or broadly scoped problems may be escalated through the
@@ -287,7 +288,7 @@ Urgent or broadly scoped problems may be escalated through the
 affected. See [Response Targets](reference/getting-help.md#response-targets).
 [Getting Help](reference/getting-help.md) describes support routing in full.
 
-## Beyond DSMLP
+## Beyond PARASOL {#beyond-dsmlp}
 
 Work requiring tightly coupled multi-node computation, MPI, a batch scheduler, or
 capacity at a scale the cluster does not carry belongs on another platform.

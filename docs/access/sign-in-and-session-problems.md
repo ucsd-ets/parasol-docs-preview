@@ -19,7 +19,7 @@ provisioning matter, not an access fault.
 
 Rosters are loaded into workspaces one business day before the start of the
 term, and a TSS change, such as an add, a drop, or a section change, is
-reflected in Datahub and DSMLP by 10am the day following the change. A course
+reflected in Datahub and PARASOL (formerly DSMLP) by 10am the day following the change. A course
 that is not listed before those times has not been loaded yet. Report a course
 that is still missing after that time to
 [datahub@ucsd.edu](mailto:datahub@ucsd.edu).

@@ -1,6 +1,6 @@
 # When Access Starts & Ends
 
-Access to Datahub and DSMLP is granted through a workspace rather than to an
+Access to Datahub and PARASOL (formerly DSMLP) is granted through a workspace rather than to an
 individual, and the date it opens depends on the kind of workspace
 ([What a Workspace Is and What It Controls](../workspaces-and-storage/what-a-workspace-is.md)).
 After a course ends, access ends first, the course environment is purged on a
@@ -21,7 +21,7 @@ takes the Active Directory username instead. See
 
 Rosters are loaded into workspaces one business day before the start of the
 term. A TSS change, such as an add, a drop, or a section change, is reflected in
-Datahub and DSMLP by 10am the day following the change. Report anything still
+Datahub and PARASOL by 10am the day following the change. Report anything still
 missing after that time to [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
 
 Waitlisted students are enrolled along with the rest of the roster. The
@@ -84,7 +84,7 @@ Request form. See [Course Timeline](../instructor-or-ta.md#course-timeline).
 | Population | Eligibility through this route |
 |---|---|
 | Self-supporting programs, such as MBA, MAS, and Extension | Eligible under the terms in [Self-Supporting Programs](../reference/policy.md#self-supporting-programs) |
-| Health Sciences departments, such as Medicine, Pharmacy, and Neurosciences | Datahub access may be limited by Health Sciences security restrictions. DSMLP access is unaffected. |
+| Health Sciences departments, such as Medicine, Pharmacy, and Neurosciences | Datahub access may be limited by Health Sciences security restrictions. PARASOL access is unaffected. |
 | Non-student researchers, including postdoctoral scholars | Not eligible. Contact Research IT Services. |
 
 ### Priority of Student Research Jobs
@@ -99,7 +99,7 @@ potential to auto-populate from departmental staff affiliation. Research
 workspaces have no roster feed and no fixed calendar. A research workspace opens
 when it is provisioned, and its membership changes on request.
 
-Research IT handles platform selection. Support for the Research Cluster and
+Research IT handles platform selection. Support for research work and for
 Universal Scale Storage is through
 [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 

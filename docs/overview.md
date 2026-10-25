@@ -1,17 +1,19 @@
-# Datahub and DSMLP Overview
+# How PARASOL Works {#datahub-and-dsmlp-overview}
 
-Start here if you are new to Datahub and the Data Science & Machine Learning
-Platform (DSMLP). Find out what the service offers every course and lab, the
+Start here if you are new to Datahub and the Platform for Applied Research, Analytics, Science and Open Learning (PARASOL, formerly DSMLP). Find out what the service offers every course and lab, the
 constraints that apply to all work on it, and the page to begin with for your
 role.
 
-## Datahub, DSMLP, and the Research Cluster
+## Datahub and PARASOL {#datahub-dsmlp-and-the-research-cluster}
 
-UC San Diego's Datahub and Data Science & Machine Learning Platform (DSMLP)
-provide thousands of undergraduates, graduate students, and their instructors
-with access to Jupyter, RStudio, and other computational resources for scheduled
-classes, formal independent study, and student projects. The same cluster runs
-research work and, in that context, is also called the **Research Cluster**.
+UC San Diego's Datahub and the Platform for Applied Research, Analytics,
+Science and Open Learning (PARASOL) provide students, instructors and
+researchers with Jupyter, RStudio and other computational resources, for
+scheduled classes, formal independent study, student projects and research.
+You reach PARASOL through Datahub in a browser, or through the login node from
+a terminal.
+PARASOL was formerly DSMLP, and research work on it was formerly called the
+Research Cluster. Older pages and articles use both names.
 
 The platforms are used in courses ranging from introductory Data Science
 lectures to graduate-level applied machine learning, and in curricula in
@@ -19,9 +21,9 @@ Biology, Music, Social Sciences, and Public Health. In AY 2025-26, the platforms
 hosted more than 140 classes, 75 instructors, and 18,000 student enrollments.
 
 **Datahub** is the web interface, at
-[datahub.ucsd.edu](https://datahub.ucsd.edu). **DSMLP** is the cluster that
+[datahub.ucsd.edu](https://datahub.ucsd.edu). **PARASOL** is the cluster that
 runs Datahub sessions, and it is also reachable from a terminal. Datahub and
-DSMLP are a single service, and the same files are present in both.
+PARASOL are a single service, and the same files are present in both.
 
 ## Where to Begin
 
@@ -31,9 +33,9 @@ Each audience has its own starting page.
 |---|---|---|
 | A student enrolled in a course that uses Datahub | [Using Datahub in a Course](student-in-a-course.md) | A web browser and nothing else |
 | A student in such a course, where the course requires SSH, `launch.sh`, batch jobs, VS Code, or a GPU class the course menu does not offer | [Working from the Command Line](working-from-the-command-line.md) | A terminal and `ssh` |
-| Teaching or assisting with a course | [Teaching with Datahub and DSMLP](instructor-or-ta.md) | A browser for most tasks |
+| Teaching or assisting with a course | [Teaching with Datahub and PARASOL](instructor-or-ta.md) | A browser for most tasks |
 | Undertaking a personal project, independent study, capstone, or club or team project | [Projects & Independent Study](student-project.md) | Familiarity with a shell |
-| A graduate student, postdoc, undergraduate, or staff researcher working without a lab workspace | [Research on DSMLP](individual-researcher.md) | Familiarity with a shell |
+| A graduate student, postdoc, undergraduate, or staff researcher working without a lab workspace | [Research on PARASOL](individual-researcher.md) | Familiarity with a shell |
 | Faculty arranging access for a research group | [Setting Up a Research Lab](faculty-research-lab.md) | Some steps are performed by ITS staff |
 
 Coursework and a personal project are two separate workspaces, with different
@@ -151,8 +153,8 @@ Questions and feedback go to the contact for the topic.
 | Topic | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| Datahub or DSMLP itself | [datahub@ucsd.edu](mailto:datahub@ucsd.edu), or the [ITS Service Desk](https://support.ucsd.edu/) |
-| The Research Cluster, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
+| Datahub or PARASOL itself | [datahub@ucsd.edu](mailto:datahub@ucsd.edu), or the [ITS Service Desk](https://support.ucsd.edu/) |
+| Research work, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 | 1:1 Consultation, for instructors, TAs, and Technical Points of Contact (TPOCs) | [ucsd-datahub.youcanbook.me](https://ucsd-datahub.youcanbook.me/) |
 
@@ -171,20 +173,20 @@ sets out the terms of 1:1 Consultation.
 [Policy](reference/policy.md) sets out the conditions of use.
 
 - Highly sensitive data (P4), such as clinical records or export-controlled
-  information, must not be used on Datahub or DSMLP, and legally or
+  information, must not be used on Datahub or PARASOL, and legally or
   contractually protected information (P3) may be permitted after review. See
   [Data Classification](reference/policy.md#data-classification).
-- Datahub and DSMLP system resources are shared among all courses and research
+- Datahub and PARASOL system resources are shared among all courses and research
   groups, and demand, in particular for GPUs, may exceed capacity at peak hours
   during 10th and Finals Weeks or at assignment deadlines. See
   [Use of Shared Resources](reference/policy.md#use-of-shared-resources).
 - Datahub may be unavailable during scheduled maintenance for time-sensitive
-  updates or security patches.
+  updates or security patches. Quarterly maintenance ends every running job.
   [Scheduled Maintenance](reference/policy.md#scheduled-maintenance) gives the
   schedule.
-- Datahub and DSMLP are not to be used to host externally available services or
+- Datahub and PARASOL are not to be used to host externally available services or
   applications except as required for coursework or projects. See
   [Hosting Externally Available Services](reference/policy.md#hosting-externally-available-services)
   and [Availability and Reliability](reference/policy.md#availability-and-reliability).
-- The campus-wide IT policy on acceptable use applies to Datahub and DSMLP. See
+- The campus-wide IT policy on acceptable use applies to Datahub and PARASOL. See
   [Appropriate Use](reference/policy.md#appropriate-use).
