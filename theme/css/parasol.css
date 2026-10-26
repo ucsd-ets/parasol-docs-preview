@@ -330,6 +330,10 @@ main#main-content .hub-heading {
 	max-width: 820px;
 }
 
+main#main-content .docs-topics-intro .hub-heading {
+	max-width: none;
+}
+
 main#main-content .hub-heading h2,
 main#main-content .hub-split-copy h2,
 main#main-content .hub-subscribe h2 {

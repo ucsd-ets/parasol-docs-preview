@@ -4,7 +4,7 @@ description: "PARASOL technical documentation by topic: access, storage, running
 hub: true
 ---
 
-<section class="hub-section hub-section-intro" aria-labelledby="docs-topics-heading">
+<section class="hub-section hub-section-intro docs-topics-intro" aria-labelledby="docs-topics-heading">
 <div class="hub-heading"><p class="home-kicker">Browse by topic</p><h2 id="docs-topics-heading">Technical Documentation</h2><p>These pages hold the detail that applies to more than one role, organized by topic. The Get Started guides link to them.</p><p>If you are new to PARASOL, read <a href="/overview/">How PARASOL Works</a> first, or pick a guide for your role under <a href="/get-started/">Get Started</a>.</p></div>
 <div class="row hub-action-grid hub-action-grid-three">
 <div class="col-md-4"><article class="panel panel-default hub-action-card"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span><h3>Access</h3><p>Datahub in the browser, the login node, remote editor setup, sign-in and session problems, and when access starts and ends.</p><a href="/access/">Access <span aria-hidden="true">→</span></a></article></div>
