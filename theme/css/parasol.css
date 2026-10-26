@@ -1169,6 +1169,46 @@ main#main-content .tritongpt-recognition-panel .home-kicker {
 
 /* ---- from agent-site.css ---------------------------------------------- */
 
+main#main-content .btn {
+	align-items: center;
+	border-radius: 2px;
+	display: inline-flex;
+	font-size: 15px;
+	font-weight: 700;
+	justify-content: center;
+	letter-spacing: .02em;
+	line-height: 1.5;
+	margin: 0;
+	min-height: 44px;
+	padding: 10px 12px;
+}
+
+main#main-content .btn.btn-lg {
+	font-size: 18px;
+	line-height: 1.3333333;
+	min-height: 50px;
+	padding: 12px;
+}
+
+@media (min-width: 768px) {
+	main#main-content .btn {
+		white-space: nowrap;
+	}
+}
+
+main#main-content .btn-primary {
+	background-color: var(--triton-blue);
+	border-color: var(--triton-blue);
+	border-style: solid;
+	border-width: 1px;
+}
+
+main#main-content .btn-primary:hover,
+main#main-content .btn-primary:focus {
+	background-color: var(--triton-navy);
+	border-color: var(--triton-navy);
+}
+
 main#main-content .intro-banner {
 	background-color: var(--triton-navy);
 }
