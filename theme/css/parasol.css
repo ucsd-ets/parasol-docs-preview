@@ -473,6 +473,17 @@ main#main-content .dsmlp-intro-actions {
 	margin-top: 27px;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+	main#main-content .dsmlp-intro .hub-split-copy {
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+	main#main-content .dsmlp-intro .hub-split-media {
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+}
+
 main#main-content .dsmlp-platform-map {
 	background:
     radial-gradient(circle at 90% 8%, rgba(0, 198, 215, .22), transparent 28%),
@@ -1115,13 +1126,6 @@ main#main-content .tritongpt-recognition-panel .home-kicker {
 	main#main-content .hub-action-card {
 		min-height: 0;
 	}
-	main#main-content .dsmlp-intro-actions {
-		align-items: stretch;
-		flex-direction: column;
-	}
-	main#main-content .dsmlp-intro-actions .btn {
-		width: 100%;
-	}
 	main#main-content .dsmlp-platform-map {
 		padding: 23px 19px;
 	}
@@ -1158,6 +1162,16 @@ main#main-content .tritongpt-recognition-panel .home-kicker {
 	}
 	main#main-content .hub-subscribe {
 		background: #fff;
+	}
+}
+
+@media (max-width: 575px) {
+	main#main-content .dsmlp-intro-actions {
+		align-items: stretch;
+		flex-direction: column;
+	}
+	main#main-content .dsmlp-intro-actions .btn {
+		width: 100%;
 	}
 }
 
