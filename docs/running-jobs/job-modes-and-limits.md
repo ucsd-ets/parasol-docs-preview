@@ -212,7 +212,7 @@ stops, whatever it was doing, and `kubectl get pods` reports `DeadlineExceeded`.
 |---|---|
 | Default runtime | 6 hours |
 | Maximum settable at launch | 12 hours |
-| Longer than 12 hours | By request, stating the purpose: [datahub@ucsd.edu](mailto:datahub@ucsd.edu) for course work, [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) for research work |
+| Longer than 12 hours | By request, stating the purpose: [parasol@ucsd.edu](mailto:parasol@ucsd.edu) for course work, [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) for research work |
 
 The runtime limit also applies to a session running under a booking, however
 long the booking. See
@@ -283,7 +283,7 @@ overlap a quarterly maintenance window.
 ### Runs Longer Than 12 Hours
 
 Runs longer than 12 hours are arranged by request, not by a flag. Email
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) for course work, or
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) for course work, or
 [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) for research work,
 stating what the job is and roughly how long it needs.
 

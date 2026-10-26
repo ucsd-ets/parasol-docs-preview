@@ -62,7 +62,7 @@ A workspace's **members** are its students or lab members. Its **workspace
 managers** are its instructors, TAs, or PI. A workspace manager may view the
 group calendar, book on a member's behalf, and waive a cancellation charge. A
 workspace manager may not edit Service Unit budgets or group limits, but may
-request a change by ticket to [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+request a change by ticket to [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 [Managing a Group](../reference/managing-a-group.md) describes the privilege
 tiers.
 

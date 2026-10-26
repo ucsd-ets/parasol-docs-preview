@@ -317,7 +317,7 @@ availability and reliability.
 | Service | Contact |
 |---|---|
 | Research IT, and support for research work | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu), [research-it.ucsd.edu](https://research-it.ucsd.edu/computing/index.html) |
-| Datahub and PARASOL | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| Datahub and PARASOL | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | IT Service Desk | [support.ucsd.edu](https://support.ucsd.edu/) |
 
 [Response Targets](reference/getting-help.md#response-targets) gives ITS

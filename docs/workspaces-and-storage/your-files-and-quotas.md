@@ -215,7 +215,7 @@ describes the login node.
 | Students in a course | The instructor or TA, who raises the request on the course's existing Service Desk ticket |
 | Independent study and project users | A ticket submitted directly. See [Administrative Requests](../reference/getting-help.md#administrative-requests) |
 | Research accounts | Research IT, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu). Temporary increases are possible where the need is bounded |
-| Group and team space | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| Group and team space | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 
 Before requesting an increase, confirm that the space is in use. Empty the Trash
 and remove any personal copy of a shared dataset. See

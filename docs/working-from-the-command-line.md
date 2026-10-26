@@ -302,7 +302,7 @@ standard and custom images.
 ## Support
 
 Course questions go to the course instructor or TA. Platform questions go to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) or the
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) or the
 [ITS Service Desk](https://support.ucsd.edu/). A ticket includes the course, the
 exact command run, and the full error.
 [Response Targets](reference/getting-help.md#response-targets) lists ITS

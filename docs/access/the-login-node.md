@@ -30,7 +30,7 @@ Duo follows the password and is challenged once every 8 hours. A second
 connection within that window does not prompt again.
 
 The challenge arrives as a Duo push. Where a push cannot be approved and a
-passcode is needed instead, write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu)
+passcode is needed instead, write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu)
 for a workaround.
 
 ### VPN Requirement
@@ -283,7 +283,7 @@ See also: [Building & Publishing a Custom Image](../environments/building-a-cust
 | Password refused | An incorrect username format. Use `username`, not `username@ucsd.edu`, with the AD password. |
 | The connection hangs after the password | Duo approval is still pending on the phone. |
 | `Connection timed out` from off campus | A network that blocks outbound SSH, such as a hotel, a conference, or some corporate networks. The VPN is not required for `ssh`, but connecting to it routes around a block of this kind. |
-| A host key warning | Do not accept it without checking. Where no change was announced, contact [datahub@ucsd.edu](mailto:datahub@ucsd.edu) before removing the stored key. |
+| A host key warning | Do not accept it without checking. Where no change was announced, contact [parasol@ucsd.edu](mailto:parasol@ucsd.edu) before removing the stored key. |
 | It connects, but nothing launched will start | The cause is not the connection. See [Sign-In & Session Problems](sign-in-and-session-problems.md). |
 | `channel N: open failed: connect failed: Connection refused` on a forwarded port | A wrong remote port number, or a local port already in use. See [Refused Tunnel Connections](#refused-tunnel-connections). |
 

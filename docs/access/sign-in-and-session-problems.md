@@ -8,7 +8,7 @@ session will not start. Most of these failures have a self-service remedy.
 |---|---|
 | Course matters | The instructor or TA first |
 | Stale profile or unreachable session | The manual resetter, under the **services** dropdown |
-| Platform matters | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) or the [ITS Service Desk](https://support.ucsd.edu/) |
+| Platform matters | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) or the [ITS Service Desk](https://support.ucsd.edu/) |
 
 ## Campus Sign-In Failures
 
@@ -28,7 +28,7 @@ term, and a TSS change, such as an add, a drop, or a section change, is
 reflected in Datahub and PARASOL (formerly DSMLP) by 10am the day following the change. A course
 that is not listed before those times has not been loaded yet. Report a course
 that is still missing after that time to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 [Students Enrolled in a Course](when-access-starts-and-ends.md#students-enrolled-in-a-course)
 describes roster provisioning.
 
@@ -225,11 +225,11 @@ A failed sign-in returns to the login page with one of these notices:
 | Notice | Meaning | Fix |
 |---|---|---|
 | `Your sign-in attempt expired or was started in another browser window. Please try again.` | Sign-in took more than 10 minutes, or **Back** or **Refresh** was used during it | Start again from the login page |
-| `Your sign-in provider did not complete the sign-in. Please try again.` | Campus sign-in did not complete | Start again from the login page. If it happens again, write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
-| `Your sign-in provider did not return your account details. Please try again, and contact an administrator if this keeps happening.` | Campus sign-in completed but did not pass the account to the app | Start again from the login page. If it happens again, write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| `Your sign-in provider did not complete the sign-in. Please try again.` | Campus sign-in did not complete | Start again from the login page. If it happens again, write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
+| `Your sign-in provider did not return your account details. Please try again, and contact an administrator if this keeps happening.` | Campus sign-in completed but did not pass the account to the app | Start again from the login page. If it happens again, write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | `Your account's domain is not permitted to use this service.` | A non-UCSD account was used | Sign in with a UCSD account |
-| `Your account has been deactivated. Contact an administrator if you believe this is a mistake.` | The reservation app account is deactivated | Write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
-| `Sign-in failed. Please try again.` | Sign-in failed for another reason | Start again from the login page. If it happens again, write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| `Your account has been deactivated. Contact an administrator if you believe this is a mistake.` | The reservation app account is deactivated | Write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
+| `Sign-in failed. Please try again.` | Sign-in failed for another reason | Start again from the login page. If it happens again, write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 
 ### Form Errors in the Reservation App
 
@@ -252,7 +252,7 @@ describes copying files out.
 ## Reporting a Problem
 
 Raise course matters with the instructor or TA first. For platform matters,
-email [datahub@ucsd.edu](mailto:datahub@ucsd.edu) or file a ticket with the
+email [parasol@ucsd.edu](mailto:parasol@ucsd.edu) or file a ticket with the
 [ITS Service Desk](https://support.ucsd.edu/). A report includes the following
 details:
 

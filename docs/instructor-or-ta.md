@@ -159,7 +159,7 @@ update partway through a project does not move your students. See
 IT Services gives priority support for standard features and functionality
 through the [Datahub & PARASOL Documentation](README.md), the IT Service Desk,
 and 1:1 Consultation. Send questions and feedback about Datahub and PARASOL to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 ### IT Service Desk
 
@@ -279,7 +279,7 @@ managers.
 ### Assisting a Student at the Service Unit Limit
 
 Request a budget change by ticket to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu). The change itself is an
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu). The change itself is an
 administrative action. Students normally book their own windows. The other
 route is to book on the student's behalf. Your booking goes through even when
 the student's budget is spent, though not past the group pool or the workspace

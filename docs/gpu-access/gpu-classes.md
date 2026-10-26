@@ -51,7 +51,7 @@ Accelerate.
 An account can hold 1 GPU at a time by default, whatever it has booked; see
 [Resource Tiers](../running-jobs/launch-sh-reference.md#resource-tiers). For
 multi-GPU work, the member, or a TA for a course, asks ITS to raise the
-account's limit. Requests go to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) and
+account's limit. Requests go to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) and
 state what the work is.
 
 ## Requesting a Class

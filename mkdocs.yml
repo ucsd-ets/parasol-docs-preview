@@ -12,6 +12,12 @@ site_description: >-
   Documentation for UC San Diego's Datahub and Platform for Applied Research,
   Analytics, Science and Open Learning (PARASOL, formerly DSMLP).
 
+# This site's own address: every page's canonical URL and the sitemap. PARASOL
+# will be served at https://parasol.ucsd.edu/; until that host exists, the
+# preview's is the canonical one. When parasol.ucsd.edu goes live, change it
+# here and remove extra.published_url below.
+site_url: https://parasol-preview.ucsd.edu/
+
 # The PARASOL stylesheet: the hub components and banner art, scoped under
 # main#main-content like theme/css/site.css. Shipped from sites/parasol/theme/.
 extra_css:
@@ -19,6 +25,12 @@ extra_css:
 
 extra:
   site_name_short: PARASOL
+
+  # Where the preview banner's "Go to the published documentation" link goes
+  # (theme/partials/preview-banner.html). It falls back to site_url, which for
+  # now is the preview itself, so it names the documentation that is live
+  # today. Remove it when site_url becomes https://parasol.ucsd.edu/.
+  published_url: https://dsmlp-docs.ucsd.edu/
 
   # Section banners (theme/partials/hero-banner.html). Each value is an art
   # key: site-hero--<key> in css/parasol.css, drawn from
@@ -82,6 +94,16 @@ extra:
 # `nav` is a list, so this REPLACES the shared nav rather than merging with it:
 # a page added to the shared nav must be added here too. The strict build
 # fails on a page missing from it (validation.omitted_files in mkdocs.yml).
+#
+# The home page is not in it: the site name in the title band links home, as
+# on the review site, and a Home item in the navbar only repeated it. Listing
+# the page in not_in_nav keeps the strict build from failing on it. The value
+# is a string, so it replaces the shared one, and search.md is repeated from
+# there; the leading / anchors README.md to the root, not every section's.
+not_in_nav: |
+  search.md
+  /README.md
+
 nav:
   - About:
       - about/README.md
@@ -148,4 +170,3 @@ nav:
           - reference/software.md
           - reference/policy.md
   - Support: support/README.md
-  - Home: README.md

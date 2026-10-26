@@ -79,7 +79,8 @@ def on_page_content(html: str, page=None, config=None, files=None) -> str:
     html = _lead(html, page)
     if config is not None and (config.get("extra") or {}).get("hero"):
         html = _drop_title(html)
-    return _mark_figures(html)
+    html = _mark_figures(html)
+    return _scroll_tables(html, page)
 
 
 # --------------------------------------------------------------------------
@@ -209,6 +210,61 @@ _TITLE = re.compile(r"\A\s*<h1\b[^>]*>.*?</h1>\s*", re.S)
 
 def _drop_title(html: str) -> str:
     return _TITLE.sub("", html, count=1)
+
+
+# --------------------------------------------------------------------------
+# Tables that scroll
+# --------------------------------------------------------------------------
+#
+# The Decorator sets overflow-x: hidden on html and body, so a table wider than
+# the column is not scrollable: it is cut off at the edge of the screen.
+# Measured at 390px wide, 16 pages had a table running past the edge, its last
+# columns out of reach. Each table is wrapped in <div class="docs-table">,
+# which scrolls sideways instead (theme/css/site.css).
+#
+# The wrapper is a named region in the tab order, so a keyboard user can focus
+# it and scroll it with the arrow keys (WCAG 2.1.1; axe's
+# scrollable-region-focusable). Its name is the heading the table sits under,
+# numbered when a heading has more than one table, so no two regions on a page
+# share a name. Glance tables are already <dl> by now and are not wrapped.
+
+TABLE_OPEN = re.compile(r"<table\b[^>]*>")
+TABLE_HEADING = re.compile(r"<h([2-4])\b[^>]*>(.*?)</h\1>", re.S)
+HEADERLINK = re.compile(r'<a class="headerlink"[^>]*>.*?</a>', re.S)
+WRAPPED = re.compile(r'<div class="docs-table"[^>]*>\s*\Z')
+
+
+def _table_label(heading_html: str) -> str:
+    text = re.sub(r"<[^>]+>", "", HEADERLINK.sub("", heading_html))
+    return " ".join(html_lib.unescape(text).split())
+
+
+def _scroll_tables(html: str, page=None) -> str:
+    headings = [(m.start(), _table_label(m.group(2))) for m in TABLE_HEADING.finditer(html)]
+    fallback = getattr(page, "title", None) or ""
+    out, pos, used = [], 0, {}
+    for m in TABLE_OPEN.finditer(html):
+        if m.start() < pos:
+            continue                     # a table nested in one already wrapped
+        close = _balanced(html, m.start(), "table")
+        if not close:
+            break
+        out.append(html[pos:m.start()])
+        table = html[m.start():close[1]]
+        pos = close[1]
+        if WRAPPED.search(html, 0, m.start()):
+            out.append(table)
+            continue
+        under = [text for start, text in headings if start < m.start()]
+        label = under[-1] if under else fallback
+        name = f"{label} table" if label else "Table"
+        used[name] = used.get(name, 0) + 1
+        if used[name] > 1:
+            name = f"{name} {used[name]}"
+        out.append(f'<div class="docs-table" role="region" tabindex="0" '
+                   f'aria-label="{html_lib.escape(name, quote=True)}">{table}</div>')
+    out.append(html[pos:])
+    return "".join(out)
 
 
 # --------------------------------------------------------------------------

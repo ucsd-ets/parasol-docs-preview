@@ -66,7 +66,7 @@ the source corpus.
 
 Request staging for a large dataset that several people need, rather than
 downloading it into each home directory. Email
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) with what the data is, its
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) with what the data is, its
 approximate size, and who needs to read it.
 
 Course dataset distribution of up to 500 GB is accommodated as a matter of
@@ -106,7 +106,7 @@ after review. See
 
 Where either level may apply, raise the dataset before any of it reaches the
 cluster. For instruction and coursework, email
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu). For research, email Research IT at
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu). For research, email Research IT at
 [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 
 ### Examples of Restricted Data

@@ -192,7 +192,7 @@ resources, and the other conditions of use.
 
 ## Support
 
-Questions and tickets go to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) or the
+Questions and tickets go to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) or the
 [ITS Service Desk](https://support.ucsd.edu/). A ticket includes what was run,
 the full error, and the workspace name.
 [Contents of a Support Ticket](reference/getting-help.md#contents-of-a-support-ticket)

@@ -36,7 +36,7 @@ Each repeat is a separate line. An `OnDemandLeaseDenied` for lack of capacity
 names the current time, so its message changes on every retry and it is written
 at every retry, usually every 2 to 5 minutes. An event that suggests contacting
 support names
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 ## Events at a Glance
 
@@ -170,7 +170,7 @@ from `-W`, or is `ORG_ON_DEMAND` when the pod names no course. The message
 states both, and names any booking the user holds under a different workspace.
 Waiting does not fix this. Launch again with the correct `-W` workspace, or
 correct the label in a manifest. If the values look right, contact
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 ### `OnDemandAdmissionPaused`
 
@@ -188,7 +188,7 @@ lease is requested. The message gives one of three causes:
 Nothing about the pod needs to change. Leave it in place. The on-demand queue is
 ordered by pod creation time, so deleting and recreating the pod moves it to the
 back. If the pause lasts, contact
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 ### `UnknownGpuClass`
 
@@ -243,7 +243,7 @@ quotes the node selection and names any other GPU class whose nodes it matches.
 Correct the node, the model, or the `gpu-class` label, and recreate the pod. The
 reservation system checks the pod again about every 5 minutes, so a pod that
 names a node out of service starts once the node returns. If the node selection
-is right, contact [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+is right, contact [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 A `medium` pod launched with `-n 30`, when node 30 is a `large` node, records:
 
@@ -398,7 +398,7 @@ The reservation system writes no event in these cases. Only the scheduler's
 | The pod is seconds old, and the scheduler has not yet ruled on it | Wait a minute |
 | The scheduler reports a shortage the reservation system cannot fix, such as `Insufficient memory` | Launch with smaller CPU or memory requests |
 | The pod asks for 2 or more GPUs, which needs a raised GPU limit, and no single node has that many free | Wait, or ask for fewer GPUs. A pod runs on one node |
-| The reservation app cannot be reached | Wait. If it lasts, contact [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| The reservation app cannot be reached | Wait. If it lasts, contact [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 
 A termination warning is not an event. It is a set of annotations on the pod.
 See

@@ -204,7 +204,7 @@ the environment your course provides, to your instructor or TA. They are the
 first tier of support. Take platform problems, such as being unable to sign in
 or the service behaving differently than documented, to the
 [ITS Service Desk](https://support.ucsd.edu/) or
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu). In a ticket, name the course, say
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu). In a ticket, name the course, say
 what you were doing, give the exact error, and include a screenshot.
 
 See also: [Response Targets](reference/getting-help.md#response-targets), [Getting Help](reference/getting-help.md)

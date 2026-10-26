@@ -100,7 +100,7 @@ Before purchasing a license, confirm the following with the relevant contact:
 
 For research use, the contact is
 [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu). For a course, the contact
-is [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+is [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 Licensed data is subject to separate rules. See
 [Restricted & Licensed Datasets](../workspaces-and-storage/datasets.md#restricted--licensed-datasets).

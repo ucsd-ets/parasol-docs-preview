@@ -1,7 +1,6 @@
 ---
 title: Documentation
-description: PARASOL technical documentation by topic: access, storage, running jobs, GPU reservations, software environments, grading, and reference.
-eyebrow: Documentation
+description: "PARASOL technical documentation by topic: access, storage, running jobs, GPU reservations, software environments, grading, and reference."
 hub: true
 ---
 

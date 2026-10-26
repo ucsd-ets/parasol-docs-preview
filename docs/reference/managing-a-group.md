@@ -143,7 +143,7 @@ not change the workspace length cap either; see
 [Reservation Length Caps](../gpu-access/reservations.md#reservation-length-caps).
 
 A manager may request a change to any of these by ticket to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu). The ticket states what the work
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu). The ticket states what the work
 is and the dates on which it matters.
 [Administrative Requests](getting-help.md#administrative-requests) covers
 requests. For quotas, see

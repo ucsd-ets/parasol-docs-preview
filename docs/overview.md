@@ -153,7 +153,7 @@ Questions and feedback go to the contact for the topic.
 | Topic | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| Datahub or PARASOL itself | [datahub@ucsd.edu](mailto:datahub@ucsd.edu), or the [ITS Service Desk](https://support.ucsd.edu/) |
+| Datahub or PARASOL itself | [parasol@ucsd.edu](mailto:parasol@ucsd.edu), or the [ITS Service Desk](https://support.ucsd.edu/) |
 | Research work, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 | 1:1 Consultation, for instructors, TAs, and Technical Points of Contact (TPOCs) | [ucsd-datahub.youcanbook.me](https://ucsd-datahub.youcanbook.me/) |

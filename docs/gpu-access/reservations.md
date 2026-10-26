@@ -120,7 +120,7 @@ Two caps apply to the length of one reservation. The shorter one binds.
 
 Only cluster administrators set the workspace length cap. A workspace manager
 cannot change it. Request a change by ticket to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu), stating the length needed and how
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu), stating the length needed and how
 the work checkpoints. A course's cap is changed at the instructor's request,
 and a research workspace's at the researcher's.
 
@@ -139,7 +139,7 @@ A session, the pod a launch creates, runs for 6 hours by default and up to 12
 hours where that is set at launch. See
 [The Runtime Limit](../running-jobs/job-modes-and-limits.md#the-runtime-limit).
 The runtime limit applies to a session under a booking as it does to any other.
-For a workaround, write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+For a workaround, write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 > [!WARNING]
 > When a session under an open booking stops at its runtime limit, start a new

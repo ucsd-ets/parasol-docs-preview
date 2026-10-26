@@ -315,7 +315,7 @@ instructor, TA, or PI) may view them but may not edit them.
 [Managing a Group](../reference/managing-a-group.md) describes manager
 privileges.
 
-Send the request by ticket to [datahub@ucsd.edu](mailto:datahub@ucsd.edu),
+Send the request by ticket to [parasol@ucsd.edu](mailto:parasol@ucsd.edu),
 naming the work, the GPU class it needs, and the dates it matters on. A request
 that names a deadline can be granted for that window alone.
 

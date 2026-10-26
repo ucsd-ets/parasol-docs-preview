@@ -40,7 +40,7 @@ ITS documentation gives these examples:
 ### Contacts for Classification Questions
 
 For instruction and coursework, email
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu). For research, email Research IT at
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu). For research, email Research IT at
 [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 See
 [Restricted & Licensed Datasets](../workspaces-and-storage/datasets.md#restricted--licensed-datasets).
@@ -149,7 +149,7 @@ less. See
 such as MAS and MBA may use Datahub and PARASOL for coursework or projects.
 [UC policy](https://www.ucop.edu/institutional-research-academic-planning/content-analysis/academic-planning/self-supporting-programs.html)
 requires ITS to recover the associated direct and indirect costs. To discuss
-cost recovery, email [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+cost recovery, email [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 [Workspace and Personal Quotas](../workspaces-and-storage/your-files-and-quotas.md#workspace-and-personal-quotas)
 sets out charges for storage.

@@ -1,7 +1,6 @@
 ---
 title: Get Started
 description: Find the PARASOL guide for your role, whether you take a course, teach one, run a student project or do research, and learn how access is granted.
-eyebrow: Get started
 hub: true
 ---
 
@@ -32,7 +31,7 @@ hub: true
 <li><span aria-hidden="true">3</span><div><strong>Student projects and independent study</strong><p>Submit the <a href="https://go.ucsd.edu/2wc5gH0">Independent Study Request</a> with the project scope and what it needs to run. See <a href="/student-project/#eligibility--requesting-access">Eligibility &amp; Requesting Access</a>.</p></div></li>
 <li><span aria-hidden="true">4</span><div><strong>Researchers and labs</strong><p>Ask <a href="https://research-it.ucsd.edu/computing/index.html">Research IT</a> whether PARASOL fits the project, then follow <a href="/individual-researcher/">Research on PARASOL</a> or <a href="/faculty-research-lab/">Setting Up a Research Lab</a>. Support for research work is from <a href="mailto:rcd-support@ucsd.edu">rcd-support@ucsd.edu</a>.</p></div></li>
 </ol>
-<p class="dsmlp-access-pathway-note"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> If you are not sure which applies, email <a href="mailto:datahub@ucsd.edu">datahub@ucsd.edu</a>.</p>
+<p class="dsmlp-access-pathway-note"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> If you are not sure which applies, email <a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>.</p>
 </div>
 </section>
 

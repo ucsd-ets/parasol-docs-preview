@@ -96,7 +96,7 @@ timeline while **Next** stays unavailable.
 | `Past this group's booking window, which reaches …` | The selection ends beyond the booking horizon |
 | `No bookable hours on this day.` | The day is outside the workspace's active dates or booking horizon, or has passed |
 | `Start time has passed — choose a later hour.` | The selection starts too soon |
-| `You are not assigned to any group. Contact an administrator.` | The account belongs to no workspace. Ask the instructor or TA to check the roster, or write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| `You are not assigned to any group. Contact an administrator.` | The account belongs to no workspace. Ask the instructor or TA to check the roster, or write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 
 ### Extend, Adopt, and Cancel Refusals
 

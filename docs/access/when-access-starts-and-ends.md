@@ -22,7 +22,7 @@ takes the Active Directory username instead. See
 Rosters are loaded into workspaces one business day before the start of the
 term. A TSS change, such as an add, a drop, or a section change, is reflected in
 Datahub and PARASOL by 10am the day following the change. Report anything still
-missing after that time to [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+missing after that time to [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 Waitlisted students are enrolled along with the rest of the roster. The
 instructor can re-add a student removed from a waitlist as an observer.
@@ -55,7 +55,7 @@ describes the account.
 
 The instructor adds TAs through Canvas. Departmental staff, co-instructors, and
 anyone else who is not a UC San Diego student cannot be added through Canvas. To
-have them added to the roster, email [datahub@ucsd.edu](mailto:datahub@ucsd.edu)
+have them added to the roster, email [parasol@ucsd.edu](mailto:parasol@ucsd.edu)
 or follow up in the course's Service Desk ticket.
 
 ### Personal Accounts for Instructors
@@ -147,7 +147,7 @@ An instructor may request that individual accounts stay active longer. The
 established reasons are Incomplete grade resolution, academic integrity
 proceedings, course development, hand-off to another instructor, and similar
 circumstances. Submit the request by ticket or to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) before access lapses.
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) before access lapses.
 
 ### Students Continuing Work After a Course
 
@@ -235,7 +235,7 @@ runs for 6 hours by default and up to 12 hours when that is requested at
 launch. See
 [The Runtime Limit](../running-jobs/job-modes-and-limits.md#the-runtime-limit).
 For runs longer than 12 hours, contact
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 Sessions holding a GPU are also subject to idle culling, which is not an error
 and does not lose saved work. The criteria are in

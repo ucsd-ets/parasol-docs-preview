@@ -131,7 +131,7 @@ published from the image repository:
   recorded.
 
 For a package or CUDA version that no published image carries, write to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 [Customizing an Environment](customizing-your-environment.md) covers adding a
 package that a standard image lacks.
 
@@ -182,7 +182,7 @@ branches and tags.
 
 Container tags are a system-side course setting, adjusted by ticket in the same
 way as resource limits and disk quotas. ITS staff make the change. Email to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) opens a ticket. To pin a
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) opens a ticket. To pin a
 workspace:
 
 1. Identify the workspace and the exact image and tag it should serve.

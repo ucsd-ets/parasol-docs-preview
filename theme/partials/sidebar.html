@@ -36,9 +36,10 @@
 {%- if section.item or sub %}
 	<article class="main-content-nav" role="navigation">
 {%- if section.item %}
-{#- A section's first child is its README/index page. Linking the <h2> to it
-    and dropping it from the list avoids naming the section twice. -#}
-{%- set index = section.item.children[0] if section.item.children[0].title == section.item.title else none %}
+{#- A section that opens with its own landing page (navm.landing): the <h2>
+    links to it, and it is dropped from the list, so the section is not named
+    twice -- whether or not the page's title matches the section's. -#}
+{%- set index = section.item.children[0] if navm.landing(section.item) else none %}
 {%- set entries = section.item.children[1:] if index else section.item.children %}
 		<h2>{% if index %}<a href="/{{ index.url }}">{{ section.item.title }}</a>{% else %}{{ section.item.title }}{% endif %}</h2>
 		<ul class="navbar-list">

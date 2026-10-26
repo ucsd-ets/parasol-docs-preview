@@ -270,7 +270,7 @@ PI) may not edit any budget, including that of the workspace they manage.
 [Managing a Group](../reference/managing-a-group.md) lists manager privileges.
 
 To change a budget, the manager requests it by ticket to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu), stating the workspace, what the
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu), stating the workspace, what the
 work is, and the date by which it matters.
 [Administrative Requests](../reference/getting-help.md#administrative-requests)
 describes the request format.
@@ -371,7 +371,7 @@ It is not an automatic remedy for a forgotten booking.
 
 Researchers working outside a course have no manager to ask. Where a penalty
 was assessed in circumstances that warrant relief, write to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) and describe what happened.
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) and describe what happened.
 
 ## When a Budget Runs Out
 
@@ -385,7 +385,7 @@ instructor or TA can request an increase by ticket. See
 [Changing a Budget](#changing-a-budget). A booking the instructor or TA makes on
 the member's behalf is charged to the member, so it does not help.
 
-In a research workspace, write to [datahub@ucsd.edu](mailto:datahub@ucsd.edu),
+In a research workspace, write to [parasol@ucsd.edu](mailto:parasol@ucsd.edu),
 naming the work and the date by which it must be done. Where the deadline
 permits, waiting for the budget window to renew is also an option. See
 [Budget Windows & Cadences](#budget-windows--cadences).

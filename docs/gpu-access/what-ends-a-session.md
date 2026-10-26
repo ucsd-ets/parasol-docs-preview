@@ -346,7 +346,7 @@ nodes, a GPU session waiting for an on-demand lease records an
 
 Where a class in regular use shows nothing available across a specific span of
 days and no notice has been sent, report it to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) instead of assuming demand.
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) instead of assuming demand.
 
 See also: [When the Cluster Is Full](quotas-and-availability.md#when-the-cluster-is-full)
 

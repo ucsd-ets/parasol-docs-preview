@@ -117,7 +117,7 @@ JupyterLab is the default interface and the supported interface for grading.
 
 Notebook 7 and NBClassic are experimental. If either misbehaves, switch back to
 JupyterLab and report the problem to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu). See
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu). See
 [Moving Between Interfaces](#moving-between-interfaces).
 
 ### Interface Choice per Person

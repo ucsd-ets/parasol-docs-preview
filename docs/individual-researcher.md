@@ -280,7 +280,7 @@ Support for research users is routed by subject.
 | Subject of the question | Contact |
 |---|---|
 | Research work, Universal Scale Storage, research allocations | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
-| Datahub or PARASOL itself: the platform, images, launching | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| Datahub or PARASOL itself: the platform, images, launching | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | Which platform is appropriate for a given body of work | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 
 Urgent or broadly scoped problems may be escalated through the

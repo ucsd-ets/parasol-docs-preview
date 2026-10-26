@@ -16,7 +16,10 @@
     extra.hero.pages[<the page's source path>]
     extra.hero.sections[<the innermost active nav section's title>]
     extra.hero.default
-  The eyebrow is the page's `eyebrow` front matter, else that section's title.
+  The eyebrow is the page's `eyebrow` front matter, else that section's title
+  -- except on the section's own landing page (navm.landing), which would put
+  the section's name over the same name. There it is the parent section's
+  title ("Documentation" over "Access"), or nothing for a top-level section.
 
   The home page shows extra.hero.home instead: the rotator in
   partials/home-carousel.html, whose slides carry <h2>s, since the home page
@@ -25,6 +28,7 @@
   A page whose front matter sets `hub: true` is a landing hub: the taller
   banner variant, and (main.html) a full-width body with no sidebar.
 #}
+{%- import "partials/nav-macros.html" as navm -%}
 {%- set hero = config.extra.hero -%}
 {%- set found = namespace(section=none) -%}
 {%- for item in nav recursive -%}
@@ -47,7 +51,9 @@
 {%- if page.is_homepage and hero.home %}
 {% include "partials/home-carousel.html" %}
 {%- else %}
-{%- set eyebrow = (page.meta.eyebrow if page.meta and page.meta.eyebrow) or (found.section.title if found.section) %}
+{%- set landing = found.section and navm.landing(found.section) and found.section.children[0] == page %}
+{%- set above = found.section.parent if landing else found.section %}
+{%- set eyebrow = (page.meta.eyebrow if page.meta and page.meta.eyebrow) or (above.title if above) %}
 {%- if hub %}
 <div class="jumbotron jumbotron-fluid intro-banner landing-hub-hero landing-hub-hero--abstract site-hero--{{ art }}">
 	<div class="container">

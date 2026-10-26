@@ -442,4 +442,4 @@ container. Install them again after reconnecting.
 
 Where none of these apply, send the connection log from the **details** pane,
 the `Host` entry, and the launch line to
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu).

@@ -54,6 +54,17 @@ main#main-content pre code {
 	padding: 0;
 }
 
+/* A long inline span -- a hostname, a whole command -- has no break point of
+ * its own. On a phone it ran past the edge of the column, where the
+ * Decorator's overflow-x: hidden on html and body cut it off. Let it break
+ * where it has to. Not in table cells, where it would squeeze the columns: a
+ * table scrolls instead (.docs-table, below). */
+main#main-content p code,
+main#main-content li code,
+main#main-content dd code {
+	overflow-wrap: anywhere;
+}
+
 main#main-content .highlight {
 	margin-bottom: 18px;
 }
@@ -254,6 +265,25 @@ main#main-content table th,
 main#main-content .table th {
 	background: var(--ucsd-sand);
 	color: var(--ucsd-dark-blue);
+}
+
+/* tools/hooks.py wraps every body table in a .docs-table region. A table wider
+ * than the column scrolls sideways inside it rather than running past the edge
+ * of the page, where the Decorator's overflow-x: hidden on html and body cuts
+ * it off out of reach. The region is in the tab order so it can be scrolled
+ * from the keyboard; the outline shows where focus is. */
+main#main-content .docs-table {
+	overflow-x: auto;
+	margin-bottom: 18px;
+}
+
+main#main-content .docs-table > table {
+	margin-bottom: 0;
+}
+
+main#main-content .docs-table:focus-visible {
+	outline: 2px solid var(--ucsd-blue);
+	outline-offset: 2px;
 }
 
 /* ---- Headings ------------------------------------------------------ *

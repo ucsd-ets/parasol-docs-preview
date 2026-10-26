@@ -81,7 +81,7 @@ each with the same internal structure:
 
 Assignment file size is capped at 100MB by default. Raising the limit requires
 editing `nbgrader_config.py` in the course environment. Contact ITS at
-[datahub@ucsd.edu](mailto:datahub@ucsd.edu) before raising it.
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu) before raising it.
 
 ## Marking Up Cells
 

@@ -84,7 +84,7 @@ The GPU default is a limit per account: 1 GPU at a time, across every pod the
 account runs. It applies on top of the reservation system's limits, so a booking
 for several GPUs, or several overlapping bookings, does not raise it. For
 multi-GPU work, the member, or a TA for a course, asks ITS to raise the
-account's limit, by ticket to [datahub@ucsd.edu](mailto:datahub@ucsd.edu).
+account's limit, by ticket to [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 An older article or course README that describes 8 CPU / 64 GB / 1 GPU or
 8 CPU / 16 GB / 1 GPU as the platform maximum is describing a default. The

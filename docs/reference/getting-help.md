@@ -25,7 +25,7 @@ Researchers and lab members have no instructor tier and use the contacts in
 | Question | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| Datahub or PARASOL itself: access, images, launching, quotas, GPUs | [datahub@ucsd.edu](mailto:datahub@ucsd.edu) |
+| Datahub or PARASOL itself: access, images, launching, quotas, GPUs | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | Research work, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | An outage, or anything to be tracked as a ticket | The [ITS Service Desk](https://support.ucsd.edu/) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
@@ -33,10 +33,10 @@ Researchers and lab members have no instructor tier and use the contacts in
 
 ### Email and the Service Desk
 
-Email to `datahub@ucsd.edu` and a ticket through the Service Desk reach the same
-staff. Email to that address opens a case, and the Service Desk web form submits
-to the same queue. Either route may be used. The web form is better suited to
-screenshots and long pastes.
+Email to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) and a ticket through the
+Service Desk reach the same staff. Email to that address opens a case, and the
+Service Desk web form submits to the same queue. Either route may be used. The
+web form is better suited to screenshots and long pastes.
 
 ### Platform Selection
 
@@ -121,11 +121,11 @@ administrative action taken by someone else.
 | Request | Granted by | Information to include |
 |---|---|---|
 | More disk space | Cluster administrators, by ticket. In a course, the instructor or TA raises it on the course's existing ticket. | The workspace ID, the current disk-quota-service reading, what is taking the space, and what has already been cleared |
-| A resource tier above the default. See [Resource Tiers](../running-jobs/launch-sh-reference.md#resource-tiers) | Cluster administrators, by ticket to [datahub@ucsd.edu](mailto:datahub@ucsd.edu) | What the work is, the CPU and memory it needs and why, whether it is one container or several at once, and how long the raise is needed for |
+| A resource tier above the default. See [Resource Tiers](../running-jobs/launch-sh-reference.md#resource-tiers) | Cluster administrators, by ticket to [parasol@ucsd.edu](mailto:parasol@ucsd.edu) | What the work is, the CPU and memory it needs and why, whether it is one container or several at once, and how long the raise is needed for |
 | A GPU class the workspace was not granted | Cluster administrators. A request from an instructor or PI carries more weight than one from a member. | The workspace, the class needed, the model or dataset whose memory footprint requires it, and the dates it matters on |
 | More Service Units | Cluster administrators set budgets. A workspace manager may request a change but cannot edit a budget. | The workspace, what the work is, the date by which it must be done, and what the budget has already been spent on |
 | A waived cancellation penalty | The workspace manager: an instructor or TA for a course, a PI for a lab, at cancellation or afterwards. A manager's waiver clears the member's share; only an administrator clears a group pool's share. | Which booking, and what happened |
-| A longer reservation than the workspace permits | Cluster administrators, by ticket to [datahub@ucsd.edu](mailto:datahub@ucsd.edu). They alone set the workspace length cap; a course's cap is usually changed at the instructor's request | The length needed, why the work cannot be split into shorter windows, and how it checkpoints |
+| A longer reservation than the workspace permits | Cluster administrators, by ticket to [parasol@ucsd.edu](mailto:parasol@ucsd.edu). They alone set the workspace length cap; a course's cap is usually changed at the instructor's request | The length needed, why the work cannot be split into shorter windows, and how it checkpoints |
 
 ### Cancellation Penalty Waivers
 
