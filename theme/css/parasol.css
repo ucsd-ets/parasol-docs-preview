@@ -271,7 +271,7 @@ main#main-content .hub-number-grid > .col-md-3 {
 	width: 50%;
 }
 
-main#main-content .hub-subscribe {
+main#main-content .hub-section.hub-subscribe {
 	background: #f5f8fa;
 	border: 1px solid var(--triton-border);
 	border-top: 5px solid var(--triton-bright-blue);
