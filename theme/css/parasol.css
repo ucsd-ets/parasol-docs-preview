@@ -477,6 +477,15 @@ main#main-content .dsmlp-intro-actions {
 	margin-top: 27px;
 }
 
+main#main-content .dsmlp-intro-actions .btn {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+main#main-content .dsmlp-intro-actions .btn-primary {
+	min-width: 0;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
 	main#main-content .dsmlp-intro .hub-split-copy {
 		flex: 0 0 60%;
