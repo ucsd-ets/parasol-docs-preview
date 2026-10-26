@@ -279,7 +279,8 @@ main#main-content .hub-section.hub-subscribe {
 	padding: 32px 30px;
 }
 
-main#main-content .hub-section.hub-subscribe + .docs-edit-link {
+main#main-content .hub-section.hub-subscribe + .docs-edit-link,
+main#main-content .hub-section.hub-section-sand + .docs-edit-link {
 	display: none;
 }
 
