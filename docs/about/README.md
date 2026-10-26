@@ -43,7 +43,7 @@ hub: true
 <div class="col-md-7 hub-split-copy">
 <p class="home-kicker">Who runs it</p>
 <h2 id="about-who-runs-heading">Operations and Support</h2>
-<p>UC San Diego IT Services builds and runs PARASOL, including Datahub, the cluster, the reservation app, and support at parasol@ucsd.edu. IT Services also gives instructors guidance and training on setting up a course. Research IT supports research work on PARASOL at rcd-support@ucsd.edu, and helps researchers decide whether PARASOL or another campus platform fits their work.</p>
+<p>UC San Diego IT Services builds and runs PARASOL, including Datahub, the cluster, the reservation app, and support at <a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>. IT Services also gives instructors guidance and training on setting up a course. Research IT supports research work on PARASOL at rcd-support@ucsd.edu, and helps researchers decide whether PARASOL or another campus platform fits their work.</p>
 
 </div>
 <div class="col-md-5 hub-split-media">
