@@ -12,7 +12,7 @@ eyebrow: About PARASOL
 <div><dt>What you need to do</dt><dd>Nothing</dd></div>
 <div><dt>Login node</dt><dd><code>dsmlp-login.ucsd.edu</code></dd></div>
 <div><dt>Reservation app</dt><dd><a href="https://reserve.dsmlp.ucsd.edu/">reserve.dsmlp.ucsd.edu</a></dd></div>
-<div><dt>Support</dt><dd><a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>; for research work, <a href="mailto:rcd-support@ucsd.edu">rcd-support@ucsd.edu</a></dd></div>
+<div><dt>Support</dt><dd><a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>, research work included; Research IT also at <a href="mailto:rcd-support@ucsd.edu">rcd-support@ucsd.edu</a></dd></div>
 </dl>
 
 ## What Stays the Same
@@ -25,7 +25,8 @@ eyebrow: About PARASOL
 | Launch scripts | `launch.sh`, `launch-scipy-ml.sh`, and the other launch commands, with the same flags |
 | Your files | The same home directories, shared workspace space, and datasets |
 | Workspaces and quotas | The same course, lab, and project workspaces, with the same limits |
-| Support | The [ITS Service Desk](https://support.ucsd.edu/); for research work, [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
+| The ITS Service Desk | [support.ucsd.edu](https://support.ucsd.edu/) |
+| Research IT, for research work | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu), alongside [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | Policy | The same conditions of use, in [Policy](../reference/policy.md) |
 
 > [!NOTE]
@@ -39,9 +40,9 @@ eyebrow: About PARASOL
 <div class="docs-cards">
 <article class="docs-card"><span aria-hidden="true" class="glyphicon glyphicon-tag"></span><p class="docs-card-title">The name</p><p>Course pages, syllabi, and support replies will say PARASOL. Older material that says DSMLP is still correct.</p></article>
 <article class="docs-card"><span aria-hidden="true" class="glyphicon glyphicon-envelope"></span><p class="docs-card-title">The support address</p><p>Questions about the platform go to <a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>.</p></article>
-<article class="docs-card"><span aria-hidden="true" class="glyphicon glyphicon-search"></span><p class="docs-card-title">Research work</p><p>Research that ran as the Research Cluster is part of PARASOL, handled the same way as instruction. Research IT still supports it, at <a href="mailto:rcd-support@ucsd.edu">rcd-support@ucsd.edu</a>.</p></article>
+<article class="docs-card"><span aria-hidden="true" class="glyphicon glyphicon-search"></span><p class="docs-card-title">Research work</p><p>Research that ran as the Research Cluster is part of PARASOL, on the same cluster, with the same tools and support as instruction. Coursework comes first in <a href="/reference/policy/#peak-gpu-demand">peak weeks</a>. Questions go to <a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>, and Research IT also answers them at <a href="mailto:rcd-support@ucsd.edu">rcd-support@ucsd.edu</a>.</p></article>
 <article class="docs-card"><span aria-hidden="true" class="glyphicon glyphicon-book"></span><p class="docs-card-title">The documentation home</p><p>Every page of the DSMLP documentation is on this site too, at the same address, alongside the guides for each audience.</p></article>
-<article class="docs-card"><span aria-hidden="true" class="glyphicon glyphicon-flash"></span><p class="docs-card-title">GPU capacity</p><p>New GPU servers arrived with the name. See <a href="/about/why-parasol/">Why PARASOL</a>.</p></article>
+<article class="docs-card"><span aria-hidden="true" class="glyphicon glyphicon-flash"></span><p class="docs-card-title">GPU capacity</p><p>New GPU servers arrive in Winter 2027. See <a href="/about/why-parasol/">Why PARASOL</a>.</p></article>
 </div>
 
 ## Where the Old Documentation Went

@@ -18,7 +18,8 @@ Research Cluster. Older pages and articles use both names.
 The platforms are used in courses ranging from introductory Data Science
 lectures to graduate-level applied machine learning, and in curricula in
 Biology, Music, Social Sciences, and Public Health. In AY 2025-26, the platforms
-hosted more than 140 classes, 75 instructors, and 18,000 student enrollments.
+hosted more than 140 classes, 75 instructors, and 18,000 student enrollments,
+and more than 500 campus researchers.
 
 **Datahub** is the web interface, at
 [datahub.ucsd.edu](https://datahub.ucsd.edu). **PARASOL** is the cluster that
@@ -153,8 +154,8 @@ Questions and feedback go to the contact for the topic.
 | Topic | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| Datahub or PARASOL itself | [parasol@ucsd.edu](mailto:parasol@ucsd.edu), or the [ITS Service Desk](https://support.ucsd.edu/) |
-| Research work, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
+| Datahub or PARASOL itself, including research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu), or the [ITS Service Desk](https://support.ucsd.edu/) |
+| Universal Scale Storage, or research work, which Research IT also answers | Research IT, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 | 1:1 Consultation, for instructors, TAs, and Technical Points of Contact (TPOCs) | [ucsd-datahub.youcanbook.me](https://ucsd-datahub.youcanbook.me/) |
 
@@ -177,8 +178,8 @@ sets out the terms of 1:1 Consultation.
   contractually protected information (P3) may be permitted after review. See
   [Data Classification](reference/policy.md#data-classification).
 - Datahub and PARASOL system resources are shared among all courses and research
-  groups, and demand, in particular for GPUs, may exceed capacity at peak hours
-  during 10th and Finals Weeks or at assignment deadlines. See
+  groups, and demand, in particular for GPUs, may exceed capacity in peak weeks,
+  weeks 6 to 10 of a quarter and finals week, or at assignment deadlines. See
   [Use of Shared Resources](reference/policy.md#use-of-shared-resources).
 - Datahub may be unavailable during scheduled maintenance for time-sensitive
   updates or security patches. Quarterly maintenance ends every running job.

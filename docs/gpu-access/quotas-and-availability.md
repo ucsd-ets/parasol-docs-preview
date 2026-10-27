@@ -64,6 +64,10 @@ capacity is therefore not always available. The status page may show free GPUs
 of a class that borrowing will not release, because part of that headroom is
 held back.
 
+The floor is deepest for an hour 12 hours away and shrinks as the hour
+approaches, so idle capacity opens to borrowing gradually rather than all at
+once. The junior tier's deeper floor stays the same at every lead time.
+
 ## Cohorts
 
 A **cohort** is a group of groups. Within a cohort, the member groups' quotas

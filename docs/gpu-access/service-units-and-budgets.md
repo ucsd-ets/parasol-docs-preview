@@ -180,11 +180,11 @@ Availability that reads zero in the evening often reads differently in the
 morning, particularly for a workspace in an overcommitted cohort. See
 [Cohorts](quotas-and-availability.md#cohorts).
 
-An off-peak booking is otherwise identical to a peak booking. The GPU hardware
-is the same, and the runtime guarantee,
+An off-peak booking is otherwise identical to a booking in the peak hours. The
+GPU hardware is the same, and the runtime guarantee,
 [The Claim Window](reservations.md#the-claim-window), and
 [The Cancellation Penalty](#the-cancellation-penalty) apply exactly as they do
-at peak.
+in the peak hours.
 
 ### The Rates Page
 

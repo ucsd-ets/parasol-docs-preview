@@ -212,14 +212,14 @@ stops, whatever it was doing, and `kubectl get pods` reports `DeadlineExceeded`.
 |---|---|
 | Default runtime | 6 hours |
 | Maximum settable at launch | 12 hours |
-| Longer than 12 hours | By request, stating the purpose: [parasol@ucsd.edu](mailto:parasol@ucsd.edu) for course work, [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) for research work |
+| Longer than 12 hours | By request to [parasol@ucsd.edu](mailto:parasol@ucsd.edu), stating the purpose. Research IT also takes requests for research work, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 
 The runtime limit also applies to a session running under a booking, however
 long the booking. See
 [Reservation Length and Session Runtime](../gpu-access/reservations.md#reservation-length-and-session-runtime).
 
-For research work, the same figures apply, and extension requests go to
-[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) instead.
+For research work, the same figures apply, and Research IT also takes extension
+requests, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 
 The runtime limit is the same in every mode and does not depend on anyone being
 attached. `-b` and `-B` do not extend it. They change what the job is attached
@@ -283,9 +283,9 @@ overlap a quarterly maintenance window.
 ### Runs Longer Than 12 Hours
 
 Runs longer than 12 hours are arranged by request, not by a flag. Email
-[parasol@ucsd.edu](mailto:parasol@ucsd.edu) for course work, or
-[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) for research work,
-stating what the job is and roughly how long it needs.
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu), stating what the job is and roughly
+how long it needs. Research IT also takes requests for research work, at
+[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 
 A job that checkpoints can be restarted.
 [Checkpointing & Logging Long Runs](checkpointing.md) covers checkpointing.

@@ -67,13 +67,11 @@ Desk instead of waiting for a course to be provisioned.
 ## Independent Study, Capstones & Special Projects
 
 For-credit independent study and research (for example, 199/299),
-thesis-related research, and certain departmentally sponsored student projects
-are requested through the
-[Independent Study Request](https://go.ucsd.edu/2wc5gH0) form. The form asks
-about the project, its resource requirements, and its sponsorship. Setting up
-access takes up to 5 business days from the request. Non-instructional
-activities such as clubs and personal projects may be approved case by case, as
-resources allow.
+thesis-related research, capstones, and club, team and personal projects are
+requested through the
+[Independent Study Request](https://go.ucsd.edu/2wc5gH0) form. Each needs a
+faculty sponsor. The form asks about the project, its resource requirements,
+and its sponsor. Setting up access takes up to 5 business days from the request.
 
 The Independent Study Request form is for individuals. Access for a course is
 requested separately, through the Specialized Instructional Computing Course
@@ -90,7 +88,8 @@ Request form. See [Course Timeline](../instructor-or-ta.md#course-timeline).
 ### Priority of Student Research Jobs
 
 Student research jobs run at a lower priority than coursework. Contention is
-expected during 8th-10th week and finals.
+expected in peak weeks, weeks 6 to 10 of a quarter and finals week. See
+[Peak GPU Demand](../reference/policy.md#peak-gpu-demand).
 
 ## Research Labs & Individual Researchers
 

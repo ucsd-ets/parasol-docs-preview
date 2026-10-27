@@ -76,6 +76,7 @@ alphabetical order, and each links to the page that covers the term in full.
 | Otter-Grader, Gradescope | Grading tools used on the platform alongside nbgrader. | [Choosing a Grading Tool & Interface](../grading/choosing-a-grading-tool.md) |
 | Overstay | Running a session past the end of its runtime guarantee, unprotected but not charged. | [Overstay](../gpu-access/what-ends-a-session.md#overstay) |
 | PARASOL | The Platform for Applied Research, Analytics, Science and Open Learning, the on-premises cluster of CPU and GPU nodes on which Datahub sessions and command-line jobs run, for courses, student projects and research alike, formerly called DSMLP. | [How PARASOL Works](../overview.md) |
+| Peak weeks | Weeks 6 to 10 of a quarter and finals week, when GPU demand is highest and coursework is served ahead of project and research work. | [Peak GPU Demand](policy.md#peak-gpu-demand) |
 | Pinning | Fixing a workspace to a dated image tag so that its members are not moved by an image update mid-term. | [Pinning a Workspace](../environments/standard-images.md#pinning-a-workspace) |
 | Pod | One running container as Kubernetes represents it; `kubectl get pods` lists the pods in an account's own namespace. | [Direct Kubernetes Use and Session Events](../running-jobs/kubernetes.md) |
 | Pod label (`-l key=value`) | A repeatable attribute attached to a pod at launch, and the means by which `gpu-class` is set. | [Resource and GPU Selection Flags](../running-jobs/launch-sh-reference.md#resource-and-gpu-selection-flags) |
@@ -128,7 +129,8 @@ PARASOL. It is still part of hostnames and system output, such as
 `dsmlp-login.ucsd.edu`.
 
 **Research Cluster** was the name for research work on what is now PARASOL.
-Support for research work is from Research IT at
-[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
+Questions about research work go to
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu), and Research IT also answers them
+at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 
 <!-- transform: on -->

@@ -31,11 +31,12 @@ hub: true
 </section>
 
 <section class="hub-section hub-section-ruled" aria-labelledby="home-usage-heading">
-<div class="hub-heading"><p class="home-kicker">2025-26 academic year</p><h2 id="home-usage-heading">Classes, Enrollments, and Instructors</h2></div>
+<div class="hub-heading"><p class="home-kicker">2025-26 academic year</p><h2 id="home-usage-heading">Classes, Enrollments, Instructors, and Researchers</h2></div>
 <ul class="row agent-metric-grid" aria-label="Platform use in the 2025-26 academic year">
-<li class="col-sm-4"><div class="agent-metric-card"><strong class="agent-metric-value">140+</strong><span class="agent-metric-label">Classes</span><span class="agent-metric-note">From introductory data science to graduate machine learning</span></div></li>
-<li class="col-sm-4"><div class="agent-metric-card"><strong class="agent-metric-value">18,000</strong><span class="agent-metric-label">Student enrollments</span><span class="agent-metric-note">Across every course that used the platform</span></div></li>
-<li class="col-sm-4"><div class="agent-metric-card"><strong class="agent-metric-value">75</strong><span class="agent-metric-label">Instructors</span><span class="agent-metric-note">Teaching with Datahub and PARASOL</span></div></li>
+<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">140+</strong><span class="agent-metric-label">Classes</span><span class="agent-metric-note">From introductory data science to graduate machine learning</span></div></li>
+<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">18,000</strong><span class="agent-metric-label">Student enrollments</span><span class="agent-metric-note">Across every course that used the platform</span></div></li>
+<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">75</strong><span class="agent-metric-label">Instructors</span><span class="agent-metric-note">Teaching with Datahub and PARASOL</span></div></li>
+<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">500+</strong><span class="agent-metric-label">Researchers</span><span class="agent-metric-note">Campus researchers outside a course</span></div></li>
 </ul>
 </section>
 
@@ -54,7 +55,7 @@ hub: true
 <p class="home-kicker">New for Fall 2026</p>
 <h2 id="home-gpu-heading">GPU Reservations</h2>
 <p>Every GPU session runs under a reservation. Book a window ahead of time in the reservation app, or launch on demand and the reservation system creates a lease for you. Both draw on your workspace's Service Unit budget, so there is no free exploratory launch.</p>
-<p>The Halıcıoğlu School of Data Science and Computing added new GPU servers with NVIDIA RTX PRO 6000 Blackwell GPUs in Fall 2026.</p>
+<p>The Halıcıoğlu School of Data Science and Computing is adding new GPU servers with NVIDIA RTX PRO 6000 Blackwell GPUs in Winter 2027.</p>
 <p><a class="btn btn-primary" href="/gpu-access/reservations/">How reservations work</a> <a class="btn btn-default" href="/about/why-parasol/">Why PARASOL</a></p>
 </div>
 <div class="col-md-5 hub-split-media">
@@ -76,4 +77,4 @@ hub: true
 
 <nav class="hub-section hub-link-panel" aria-labelledby="home-docs-heading"><div class="hub-heading"><p class="home-kicker">Documentation</p><h2 id="home-docs-heading">Documentation by Topic</h2></div><div class="row hub-link-columns"><div class="col-sm-6 col-md-4"><a href="/access/"><strong>Access</strong><span>Datahub, the login node, and remote editors</span></a></div><div class="col-sm-6 col-md-4"><a href="/workspaces-and-storage/"><strong>Workspaces &amp; Storage</strong><span>Directories, quotas, and moving data</span></a></div><div class="col-sm-6 col-md-4"><a href="/running-jobs/"><strong>Running Jobs</strong><span>launch.sh, job modes, and monitoring</span></a></div><div class="col-sm-6 col-md-4"><a href="/gpu-access/"><strong>GPU Access</strong><span>Classes, reservations, and budgets</span></a></div><div class="col-sm-6 col-md-4"><a href="/environments/"><strong>Environments</strong><span>Standard images and custom containers</span></a></div><div class="col-sm-6 col-md-4"><a href="/reference/error-messages/"><strong>Error Messages</strong><span>What a message means and how to fix it</span></a></div></div></nav>
 
-<section class="hub-section hub-subscribe" aria-labelledby="home-help-heading"><div class="row hub-split hub-split-align-center"><div class="col-md-8"><p class="home-kicker">Support</p><h2 id="home-help-heading">Getting Help</h2><p>Students in a course should ask their instructor or TA first. For anything about the platform itself, email <a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>. For research work, email rcd-support@ucsd.edu. Instructors and TAs can book a one-on-one consultation.</p></div><div class="col-md-4"><p><a class="btn btn-primary" href="/support/">Get help</a></p></div></div></section>
+<section class="hub-section hub-subscribe" aria-labelledby="home-help-heading"><div class="row hub-split hub-split-align-center"><div class="col-md-8"><p class="home-kicker">Support</p><h2 id="home-help-heading">Getting Help</h2><p>Students in a course should ask their instructor or TA first. For anything about the platform, research work included, email <a href="mailto:parasol@ucsd.edu">parasol@ucsd.edu</a>. Research IT also answers research questions at <a href="mailto:rcd-support@ucsd.edu">rcd-support@ucsd.edu</a>. Instructors and TAs can book a one-on-one consultation.</p></div><div class="col-md-4"><p><a class="btn btn-primary" href="/support/">Get help</a></p></div></div></section>

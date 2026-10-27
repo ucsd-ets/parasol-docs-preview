@@ -25,8 +25,8 @@ Researchers and lab members have no instructor tier and use the contacts in
 | Question | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| Datahub or PARASOL itself: access, images, launching, quotas, GPUs | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
-| Research work, or Universal Scale Storage | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
+| Datahub or PARASOL itself: access, images, launching, quotas, GPUs, and research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
+| Universal Scale Storage, or research work, which Research IT also answers | Research IT, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | An outage, or anything to be tracked as a ticket | The [ITS Service Desk](https://support.ucsd.edu/) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 | An in-depth conversation, for an instructor, TA, or Technical Point of Contact (TPOC) | [1:1 Consultation](https://ucsd-datahub.youcanbook.me/) |
@@ -44,7 +44,9 @@ Research IT is the first contact for the question of whether a research project
 belongs on PARASOL. Research IT can compare a project against the other platforms
 the campus runs, including capabilities PARASOL does not have, such as a full
 batch scheduler, MPI, and multi-node work, and against the platforms a PI's
-group already uses.
+group already uses. Highly resource-intensive work may suit San Diego
+Supercomputer Center (SDSC) systems such as the Triton Shared Computing Cluster
+(TSCC).
 
 See also: [Coming from HPC](coming-from-hpc.md)
 
@@ -95,7 +97,7 @@ through the Independent Study Request form, may take up to 5 days to answer.
 For instructors only, an incident affecting multiple courses, many users, or a
 critical point in the quarter such as an exam carries a target response time of
 30 minutes from first contact to the Service Desk and a target resolution time
-of 8 hours. The tier is an instructional commitment. An instructor or TA reaches
+of 8 hours, during business hours. The tier is an instructional commitment. An instructor or TA reaches
 it by reporting a broad incident. An individual user does not reach it by
 marking a ticket urgent, and a student whose whole class is affected reaches it
 by telling the instructor.
@@ -104,7 +106,9 @@ by telling the instructor.
 
 Urgent problems outside business hours may be escalated through the Service
 Desk. Escalation may be requested, and the Service Desk determines how it is
-routed.
+routed. Response outside business hours is best effort, and instruction comes
+first. During critical periods of the term, ITS aims for the same 30-minute
+response to an instructor's incident.
 
 ## 1:1 Consultation
 

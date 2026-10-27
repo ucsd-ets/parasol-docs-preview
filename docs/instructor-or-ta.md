@@ -179,7 +179,7 @@ you. Take in-depth questions to [1:1 Consultation](#11-consultation).
 [Response Targets](reference/getting-help.md#response-targets) gives the
 response targets, including the incident tier for instructors. You can
 escalate urgent problems that arise outside business hours through the Service
-Desk.
+Desk, where response is best effort, with instruction first.
 
 ### 1:1 Consultation
 

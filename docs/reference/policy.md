@@ -39,9 +39,8 @@ ITS documentation gives these examples:
 
 ### Contacts for Classification Questions
 
-For instruction and coursework, email
-[parasol@ucsd.edu](mailto:parasol@ucsd.edu). For research, email Research IT at
-[rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
+Email [parasol@ucsd.edu](mailto:parasol@ucsd.edu). For research data, Research
+IT also answers at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 See
 [Restricted & Licensed Datasets](../workspaces-and-storage/datasets.md#restricted--licensed-datasets).
 [Getting Help](getting-help.md) lists other support routes.
@@ -138,9 +137,10 @@ describes penalties.
 
 ### Peak GPU Demand
 
-Demand for GPUs may exceed capacity at peak hours during 10th and Finals Weeks,
-or at assignment deadlines. Work shifted to a daytime or off-peak hour costs
-less. See
+Demand for GPUs is highest in **peak weeks**: weeks 6 to 10 of a quarter and
+finals week. In peak weeks and at assignment deadlines, demand may exceed
+capacity, and coursework is served ahead of project and research work. Work
+shifted to a daytime or off-peak hour costs less. See
 [Peak & Off-Peak Hours](../gpu-access/service-units-and-budgets.md#peak--off-peak-hours).
 
 ## Self-Supporting Programs

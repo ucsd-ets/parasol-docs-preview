@@ -1,42 +1,45 @@
 ---
 title: Why PARASOL
-description: Student demand for GPU computing outgrew the platform. New GPU servers and reservations mean coursework no longer depends on paying for cloud time.
+description: Student demand for GPUs outgrew the platform. Reservations, and new GPU servers in Winter 2027, mean coursework no longer depends on paying for cloud time.
 eyebrow: About PARASOL
 ---
 
 <p class="lead">Training a model, fine-tuning one, or running a large analysis takes GPUs. As more courses teach machine learning, more students need them, and the campus platform has not always had enough for all of them. Some students have paid for cloud GPU time themselves to finish coursework and projects.</p>
 
 PARASOL is the campus response. It is the platform students already know,
-formerly called DSMLP, with more GPUs, a reservation system that matches
-capacity to the academic calendar, and a name that reflects who it serves.
+formerly called DSMLP, with a reservation system that matches capacity to the
+academic calendar, more GPUs from Winter 2027, and a name that reflects who it
+serves.
 
 ## What the Name Stands For
 
 PARASOL is short for **Platform for Applied Research, Analytics, Science and
 Open Learning**. The platform supports classroom GPU demand first, and runs
-research work on the same terms.
+research on the same cluster, with the same tools and support.
 
-## What Was Added in Fall 2026
+## GPU Servers Arriving in Winter 2027
 
-The Halıcıoğlu School of Data Science and Computing added new GPU servers to the platform.
+The Halıcıoğlu School of Data Science and Computing is adding new GPU servers to the platform in Winter 2027.
 
-<ul class="row agent-metric-grid" aria-label="GPU capacity added in Fall 2026">
-<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">TBA</strong><span class="agent-metric-label">GPU servers</span><span class="agent-metric-note">Added in Fall 2026</span></div></li>
+<ul class="row agent-metric-grid" aria-label="GPU capacity arriving in Winter 2027">
+<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">TBA</strong><span class="agent-metric-label">GPU servers</span><span class="agent-metric-note">Arriving in Winter 2027</span></div></li>
 <li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">TBA</strong><span class="agent-metric-label">GPUs in total</span><span class="agent-metric-note">NVIDIA RTX PRO 6000 Blackwell</span></div></li>
 <li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">TBA</strong><span class="agent-metric-label">Peak GPU-hours a year</span><span class="agent-metric-note">Approximate, for coursework and student projects</span></div></li>
 <li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">TBA</strong><span class="agent-metric-label">Off-peak GPU-hours a year</span><span class="agent-metric-note">For approved research, capstones, and graduate work</span></div></li>
 </ul>
 
-The added servers expand the platform for every course, project, and research
-group that uses it.
+Courses, projects and research groups across campus can use the new
+servers.
 
-[GPU Hardware & CUDA](../gpu-access/gpu-hardware.md) lists every GPU model on
-the cluster, including the new ones, and the GPU class each one serves.
+[GPU Hardware & CUDA](../gpu-access/gpu-hardware.md) lists the GPU models
+behind each GPU class, including the RTX PRO 6000 Blackwell that the new
+servers carry.
 
 ## Why Reservations
 
-GPU demand is uneven. It peaks around assignment deadlines and in tenth week
-and finals, and it falls overnight and on weekends. A reservation holds a GPU
+GPU demand is uneven. It peaks around assignment deadlines and in peak weeks,
+weeks 6 to 10 of a quarter and finals week, and it falls overnight and on
+weekends. A reservation holds a GPU
 for a specific window, so a student with a deadline does not have to wait for a
 free GPU. Off-peak hours cost fewer Service Units, which moves long research
 runs to the hours when classes use the fewest GPUs.
@@ -47,7 +50,7 @@ how GPU time is metered.
 
 ## What Comes Next
 
-The new servers also give the campus better data on GPU demand. University
+The new servers will also give the campus better data on GPU demand. University
 leaders will use that data to plan further investment, including software and
 services that make GPU computing easier to use in courses outside science and
 engineering.
