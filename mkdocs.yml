@@ -31,6 +31,19 @@ extra_css:
 extra:
   site_name_short: PARASOL
 
+  # PARASOL's own README is its home-page hub; do not use the DSMLP partial.
+  home_template: ''
+
+  # The home page's <title> (theme/main.html), in place of site_name. Other
+  # pages keep "Page | Datahub & PARASOL Documentation". Quoted: the value
+  # contains ": ", which YAML would otherwise read as a key.
+  home_title: "PARASOL: Platform for Applied Research, Analytics, Science and Open Learning"
+
+  # No site-wide draft notice (theme/partials/draft-banner.html). The shared
+  # config's notice, which flags the Fall 2026 reservation figures as
+  # unpublished, stays on DSMLP; empty here, the partial renders nothing.
+  draft_banner: ""
+
   # Where the preview banner's "Go to the published documentation" link goes
   # (theme/partials/preview-banner.html). It falls back to site_url, which for
   # now is the preview itself, so it names the documentation that is live
