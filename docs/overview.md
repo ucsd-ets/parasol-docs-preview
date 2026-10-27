@@ -35,16 +35,18 @@ Each audience has its own starting page.
 | A student enrolled in a course that uses Datahub | [Using Datahub in a Course](student-in-a-course.md) | A web browser and nothing else |
 | A student in such a course, where the course requires SSH, `launch.sh`, batch jobs, VS Code, or a GPU class the course menu does not offer | [Working from the Command Line](working-from-the-command-line.md) | A terminal and `ssh` |
 | Teaching or assisting with a course | [Teaching with Datahub and PARASOL](instructor-or-ta.md) | A browser for most tasks |
+| A student in a participating major or program, working outside a course workspace or a sponsored project | [Open Learning](open-learning.md) | A web browser |
 | Undertaking a personal project, independent study, capstone, or club or team project | [Projects & Independent Study](student-project.md) | Familiarity with a shell |
 | A graduate student, postdoc, undergraduate, or staff researcher working without a lab workspace | [Research on PARASOL](individual-researcher.md) | Familiarity with a shell |
 | Faculty arranging access for a research group | [Setting Up a Research Lab](faculty-research-lab.md) | Some steps are performed by ITS staff |
 
-Coursework and a personal project are two separate workspaces, with different
-eligibility, different resources, and different access lifetimes.
+Coursework, Open Learning, and a personal project are separate workspaces, with
+different eligibility, different resources, and different access lifetimes.
 [Using Datahub in a Course](student-in-a-course.md) and
 [Working from the Command Line](working-from-the-command-line.md) cover
-coursework. [Projects & Independent Study](student-project.md) covers a
-personal project.
+coursework. [Open Learning](open-learning.md) covers work outside a course in a
+participating major or program. [Projects & Independent Study](student-project.md)
+covers a personal project.
 
 ## Workspaces
 

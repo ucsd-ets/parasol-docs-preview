@@ -18,6 +18,9 @@ a scheduled course:
   clubs, and teams
 - Non-credit personal projects
 
+Exploration without a sponsor or a defined project, by a student in a
+participating major or program, belongs in [Open Learning](open-learning.md).
+
 The programs in
 [Self-Supporting Programs](reference/policy.md#self-supporting-programs) are
 eligible, subject to the cost recovery set out there.

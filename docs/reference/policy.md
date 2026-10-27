@@ -139,7 +139,8 @@ describes penalties.
 
 Demand for GPUs is highest in **peak weeks**: weeks 6 to 10 of a quarter and
 finals week. In peak weeks and at assignment deadlines, demand may exceed
-capacity, and coursework is served ahead of project and research work. Work
+capacity, and coursework is served ahead of project, research, and Open Learning
+work. Work
 shifted to a daytime or off-peak hour costs less. See
 [Peak & Off-Peak Hours](../gpu-access/service-units-and-budgets.md#peak--off-peak-hours).
 

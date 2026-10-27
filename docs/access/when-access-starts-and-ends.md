@@ -91,6 +91,24 @@ Student research jobs run at a lower priority than coursework. Contention is
 expected in peak weeks, weeks 6 to 10 of a quarter and finals week. See
 [Peak GPU Demand](../reference/policy.md#peak-gpu-demand).
 
+## Open Learning
+
+Open Learning opens in Winter 2027. Your access follows your major, minor or
+graduate program in TSS, and students in eligible programs are added
+automatically, with no request or form. A change in TSS, such as declaring,
+changing or leaving a major, reaches the workspace within a day, whether it
+starts your access or ends it. A second major or a minor in an eligible program
+also gives access. [Eligible Programs](../open-learning.md#eligible-programs)
+lists the programs.
+
+If you graduate in an eligible program, your access lasts until your campus
+account is removed, one to two quarters after graduation.
+
+When your access ends, the Open Learning workspace and your home directory in
+it disappear from your account. Copy out anything you want to keep before then.
+See
+[Retrieving Work Before Access Ends](../workspaces-and-storage/moving-and-sharing-data.md#retrieving-work-before-access-ends).
+
 ## Research Labs & Individual Researchers
 
 Research IT Services curates lab and research workspaces manually, with the

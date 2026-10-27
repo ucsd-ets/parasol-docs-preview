@@ -63,6 +63,13 @@ extra:
           text: Book a GPU window ahead of time, or launch on demand and the reservation system creates a lease for you. Both draw on your workspace's Service Unit budget.
           link: /gpu-access/reservations/
           label: How reservations work
+        - id: open-learning
+          art: slide-open-learning
+          title: Open Learning
+          accent: Starting Winter 2027
+          text: Students in eligible data science and artificial intelligence programs get a Datahub workspace for coursework and exploration outside a course, with nothing to request.
+          link: /open-learning/
+          label: See who is eligible
         - id: from-dsmlp
           art: slide-rename
           title: Formerly DSMLP
@@ -120,6 +127,7 @@ nav:
       - student-in-a-course.md
       - working-from-the-command-line.md
       - instructor-or-ta.md
+      - open-learning.md
       - student-project.md
       - individual-researcher.md
       - faculty-research-lab.md

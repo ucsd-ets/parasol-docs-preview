@@ -17,7 +17,8 @@ Platform problems go directly to ITS, whoever reports them. Platform problems
 include an inability to sign in at all, a service that is down, and behavior
 that differs from the documentation.
 
-Researchers and lab members have no instructor tier and use the contacts in
+Researchers, lab members, and students working in Open Learning have no
+instructor tier for that work and use the contacts in
 [Support Contacts](#support-contacts) directly.
 
 ## Support Contacts
@@ -89,8 +90,9 @@ ITS targets resolution of individual user issues within 1-2 business days. The
 target applies to students in a course, researchers, and instructors, and to
 the requests in [Administrative Requests](#administrative-requests).
 
-A problem report from an independent study or project user, whose access came
-through the Independent Study Request form, may take up to 5 days to answer.
+A problem report from Open Learning, or from an independent study or project
+user whose access came through the Independent Study Request form, may take up
+to 5 days to answer.
 
 ### Instructor Incident Tier
 

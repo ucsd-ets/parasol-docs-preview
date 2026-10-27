@@ -16,6 +16,9 @@ serves.
 PARASOL is short for **Platform for Applied Research, Analytics, Science and
 Open Learning**. The platform supports classroom GPU demand first, and runs
 research on the same cluster, with the same tools and support.
+From Winter 2027, [Open Learning](../open-learning.md) gives students in
+eligible majors and programs a workspace for coursework and exploration outside
+a course.
 
 ## GPU Servers Arriving in Winter 2027
 
