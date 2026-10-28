@@ -55,17 +55,10 @@ extra:
         - id: parasol
           art: slide-home
           title: PARASOL
-          accent: GPU computing for UC San Diego
-          text: PARASOL provides Jupyter, RStudio, and GPUs for coursework, student projects, and research. Open it in a browser through Datahub, or from a terminal.
-          link: /get-started/
-          label: Find your starting page
-        - id: open-learning
-          art: slide-open-learning
-          title: Open Learning
-          accent: Starting Winter 2027
-          text: Students in eligible data science and artificial intelligence programs get a Datahub workspace for coursework and exploration outside a course, with nothing to request.
-          link: /open-learning/
-          label: See who is eligible
+          accent: ""
+          text: PARASOL (formerly DSMLP) – or Platform for Applied Research, Analytics, Science and Open Learning is designed to support current and future student demand for GPU computing resources in classroom settings, starting with prioritized access to Halıcıoğlu School students and faculty.
+          link: /about/why-parasol/
+          label: WHY PARASOL
         - id: from-dsmlp
           art: slide-rename
           title: Formerly DSMLP
@@ -73,6 +66,13 @@ extra:
           text: Your sign-in, your files, and the Datahub address are the same as before. Every page of the documentation is here too, at the same address.
           link: /about/from-dsmlp-to-parasol/
           label: What the new name changes
+        - id: open-learning
+          art: slide-open-learning
+          title: Open Learning
+          accent: Starting Winter 2027
+          text: Students in eligible data science and artificial intelligence programs get a Datahub workspace for coursework and exploration outside a course, with nothing to request.
+          link: /open-learning/
+          label: See who is eligible
     pages:
       overview.md: works
       about/why-parasol.md: why
