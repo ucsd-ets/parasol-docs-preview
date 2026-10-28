@@ -12,11 +12,11 @@ site_description: >-
   Documentation for UC San Diego's Datahub and Platform for Applied Research,
   Analytics, Science and Open Learning (PARASOL, formerly DSMLP).
 
-# This site's own address: every page's canonical URL and the sitemap. PARASOL
-# will be served at https://parasol.ucsd.edu/; until that host exists, the
-# preview's is the canonical one. When parasol.ucsd.edu goes live, change it
-# here and remove extra.published_url below.
-site_url: https://parasol-preview.ucsd.edu/
+# This site's own address: every page's canonical URL and the sitemap, and the
+# preview banner's link to production. Published by parasol-publish.yml to
+# ucsd-ets/parasol-home-public, which the public-repo CNAME in
+# sites/parasol/overlay/ puts on this host. Change all three together.
+site_url: https://parasol.ucsd.edu/
 
 # The PARASOL stylesheet: the hub components and banner art, scoped under
 # main#main-content like theme/css/site.css. Shipped from sites/parasol/theme/.
@@ -38,12 +38,6 @@ extra:
   # config's notice, which flags the Fall 2026 reservation figures as
   # unpublished, stays on DSMLP; empty here, the partial renders nothing.
   draft_banner: ""
-
-  # Where the preview banner's "Go to the published documentation" link goes
-  # (theme/partials/preview-banner.html). It falls back to site_url, which for
-  # now is the preview itself, so it names the documentation that is live
-  # today. Remove it when site_url becomes https://parasol.ucsd.edu/.
-  published_url: https://dsmlp-docs.ucsd.edu/
 
   # Section banners (theme/partials/hero-banner.html). Each value is an art
   # key: site-hero--<key> in css/parasol.css, drawn from
