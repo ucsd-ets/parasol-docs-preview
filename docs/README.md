@@ -30,40 +30,6 @@ hub: true
 </div>
 </section>
 
-<section class="hub-section hub-section-ruled" aria-labelledby="home-usage-heading">
-<div class="hub-heading"><p class="home-kicker">2025-26 academic year</p><h2 id="home-usage-heading">Classes, Enrollments, Instructors, and Researchers</h2></div>
-<ul class="row agent-metric-grid" aria-label="Platform use in the 2025-26 academic year">
-<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">140+</strong><span class="agent-metric-label">Classes</span><span class="agent-metric-note">From introductory data science to graduate machine learning</span></div></li>
-<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">18,000</strong><span class="agent-metric-label">Student enrollments</span><span class="agent-metric-note">Across every course that used the platform</span></div></li>
-<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">75</strong><span class="agent-metric-label">Instructors</span><span class="agent-metric-note">Teaching with Datahub and PARASOL</span></div></li>
-<li class="col-sm-6 col-md-3"><div class="agent-metric-card"><strong class="agent-metric-value">500+</strong><span class="agent-metric-label">Researchers</span><span class="agent-metric-note">Campus researchers outside a course</span></div></li>
-</ul>
-</section>
-
-<section class="hub-section hub-section-dark" aria-labelledby="home-start-heading">
-<div class="hub-heading"><p class="home-kicker">Get started</p><h2 id="home-start-heading">Guides by Role</h2><p>Each guide is written for one role and links to the technical documentation for detail.</p></div>
-<div class="row hub-action-grid hub-action-grid-three">
-<div class="col-md-4"><article class="panel panel-default hub-action-card"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><h3>Students in a Course</h3><p>Sign in to Datahub, open your course environment, and save your work where it is kept between sessions.</p><a href="/student-in-a-course/">Using Datahub in a Course <span aria-hidden="true">→</span></a></article></div>
-<div class="col-md-4"><article class="panel panel-default hub-action-card"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span><h3>Instructors and TAs</h3><p>Request a course, choose its software and GPUs, manage the roster, and grade notebooks.</p><a href="/instructor-or-ta/">Teaching with Datahub and PARASOL <span aria-hidden="true">→</span></a></article></div>
-<div class="col-md-4"><article class="panel panel-default hub-action-card"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span><h3>Projects and Research</h3><p>Request access for independent study, a capstone, solo research, or a whole lab.</p><a href="/get-started/#research-and-projects">Projects and Research <span aria-hidden="true">→</span></a></article></div>
-</div>
-</section>
-
-<section class="hub-section" aria-labelledby="home-gpu-heading">
-<div class="row hub-split hub-split-align-center">
-<div class="col-md-7 hub-split-copy">
-<p class="home-kicker">New for Fall 2026</p>
-<h2 id="home-gpu-heading">GPU Reservations</h2>
-<p>Every GPU session runs under a reservation. Book a window ahead of time in the reservation app, or launch on demand and the reservation system creates a lease for you. Both draw on your workspace's Service Unit budget, so there is no free exploratory launch.</p>
-<p>The Halıcıoğlu School of Data Science and Computing is adding new GPU servers with NVIDIA RTX PRO 6000 Blackwell GPUs in Winter 2027.</p>
-<p><a class="btn btn-primary" href="/gpu-access/reservations/">How reservations work</a> <a class="btn btn-default" href="/about/why-parasol/">Why PARASOL</a></p>
-</div>
-<div class="col-md-5 hub-split-media">
-<aside class="dsmlp-resource-panel" aria-labelledby="home-gpu-links-heading"><p class="home-kicker">Before you launch a GPU session</p><h3 id="home-gpu-links-heading">GPU Classes, Budgets, and Session Limits</h3><ul><li><a href="/gpu-access/gpu-classes/">GPU Classes</a></li><li><a href="/gpu-access/service-units-and-budgets/">Service Units &amp; Budgets</a></li><li><a href="/gpu-access/what-ends-a-session/">What Ends a Session</a></li><li><a href="/running-jobs/checkpointing/">Checkpointing &amp; Logging Long Runs</a></li></ul></aside>
-</div>
-</div>
-</section>
-
 <section class="hub-section hub-section-sand" aria-labelledby="home-rename-heading">
 <div class="hub-heading"><p class="home-kicker">From DSMLP to PARASOL</p><h2 id="home-rename-heading">What the New Name Changes</h2><p>The name and the documentation home are new. The platform, its accounts, and its addresses are the ones you already use.</p></div>
 <div class="row hub-number-grid hub-number-grid-light">

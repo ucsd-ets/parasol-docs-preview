@@ -65,13 +65,6 @@ extra:
           text: PARASOL provides Jupyter, RStudio, and GPUs for coursework, student projects, and research. Open it in a browser through Datahub, or from a terminal.
           link: /get-started/
           label: Find your starting page
-        - id: gpu-reservations
-          art: slide-gpu
-          title: GPUs on Reservation
-          accent: New for Fall 2026
-          text: Book a GPU window ahead of time, or launch on demand and the reservation system creates a lease for you. Both draw on your workspace's Service Unit budget.
-          link: /gpu-access/reservations/
-          label: How reservations work
         - id: open-learning
           art: slide-open-learning
           title: Open Learning
