@@ -13,7 +13,8 @@ scheduled classes, formal independent study, student projects and research.
 You reach PARASOL through Datahub in a browser, or through the login node from
 a terminal.
 PARASOL was formerly DSMLP, and research work on it was formerly called the
-Research Cluster. Older pages and articles use both names.
+Research Cluster. Older pages and articles use both names. See
+[From DSMLP to PARASOL](reference/from-dsmlp-to-parasol.md).
 
 The platforms are used in courses ranging from introductory Data Science
 lectures to graduate-level applied machine learning, and in curricula in
