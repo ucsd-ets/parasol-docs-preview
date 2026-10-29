@@ -96,6 +96,31 @@ extra:
   # this file, so the line has to be here too. It MUST stay empty.
   preview_banner: 'This is a staging copy of the PARASOL documentation, published for review before it goes live. Pages here may be unfinished, unreviewed or wrong, and they can change or disappear without notice.'
 
+  # The preview site carries the whole documentation set under review, but its
+  # top-nav Documentation entry points at the standalone documentation site.
+  # Keep the internal nav for breadcrumbs and the sidebar; this replaces only
+  # the matching top-nav item, and only where preview_banner is nonempty. The
+  # home page's Documentation by Topic panel uses the same host on preview.
+  top_nav_overrides:
+    Documentation:
+      title: Documentation
+      url: https://parasol-docs.ucsd.edu/
+      children:
+        - title: Access
+          url: https://parasol-docs.ucsd.edu/access/
+        - title: Workspaces & Storage
+          url: https://parasol-docs.ucsd.edu/workspaces-and-storage/
+        - title: Running Jobs
+          url: https://parasol-docs.ucsd.edu/running-jobs/
+        - title: GPU Access
+          url: https://parasol-docs.ucsd.edu/gpu-access/
+        - title: Environments
+          url: https://parasol-docs.ucsd.edu/environments/
+        - title: Grading
+          url: https://parasol-docs.ucsd.edu/grading/
+        - title: Reference
+          url: https://parasol-docs.ucsd.edu/reference/
+
 # The PARASOL information architecture: About, Get Started, Documentation.
 # Every page is where the shared nav puts it, at the same URL -- only the
 # grouping differs -- so dsmlp-docs.ucsd.edu can redirect path for path.
