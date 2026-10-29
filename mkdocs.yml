@@ -7,7 +7,7 @@
 # wholesale: override one and you own all of it.
 INHERIT: mkdocs.base.yml
 
-site_name: Datahub & PARASOL Documentation
+site_name: PARASOL
 site_description: >-
   Documentation for UC San Diego's Datahub and Platform for Applied Research,
   Analytics, Science and Open Learning (PARASOL, formerly DSMLP).
@@ -30,7 +30,7 @@ extra:
   home_template: ''
 
   # The home page's <title> (theme/main.html), in place of site_name. Other
-  # pages keep "Page | Datahub & PARASOL Documentation". Quoted: the value
+  # pages keep "Page | PARASOL". Quoted: the value
   # contains ": ", which YAML would otherwise read as a key.
   home_title: "PARASOL: Platform for Applied Research, Analytics, Science and Open Learning"
 
@@ -96,11 +96,9 @@ extra:
   # this file, so the line has to be here too. It MUST stay empty.
   preview_banner: 'This is a staging copy of the PARASOL documentation, published for review before it goes live. Pages here may be unfinished, unreviewed or wrong, and they can change or disappear without notice.'
 
-  # The preview site carries the whole documentation set under review, but its
-  # top-nav Documentation entry points at the standalone documentation site.
-  # Keep the internal nav for breadcrumbs and the sidebar; this replaces only
-  # the matching top-nav item, and only where preview_banner is nonempty. The
-  # home page's Documentation by Topic panel uses the same host on preview.
+  # The top-nav Documentation entry and the home page's Documentation by Topic
+  # panel point at the standalone documentation site. Keep the internal nav for
+  # breadcrumbs and the sidebar; this replaces only the matching top-nav item.
   top_nav_overrides:
     Documentation:
       title: Documentation
